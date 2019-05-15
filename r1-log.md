@@ -7,4 +7,7 @@ The log of my #100DaysOfCode challenge. Started on May 13, Monday, 2019.
 ### R1D1 - 2019/05/13
 Started writing unittests for the _FinancialIndicesApi_ class, and finished the tests for the _create_api_url() method. 
 
-### R1D2
+### R1D2 - 2019/05/14
+Kept working on the same unittest script. Finished the tests for the method _get_json_results.
+
+### R1D3

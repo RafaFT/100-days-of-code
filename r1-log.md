@@ -16,4 +16,7 @@ Kept working on the script 'test_bcb_api.py', which is a unittest based file for
 ### R1D4 - 2019/05/17
 Kept working on 'test_bcb_api.py' and made some adjustments to the original bcb_api.py file.
 
-### R1D5
+### R1D5 - 2019/05/18
+Almost finishing the unittest file for the FinancialIndicesApi class, two methods left.
+
+### R1D6

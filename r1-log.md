@@ -13,4 +13,7 @@ Kept working on the same unittest script. Finished the tests for the method _get
 ### R1D3 - 2019/05/15
 Kept working on the script 'test_bcb_api.py', which is a unittest based file for the class FinancialIndicesApi.
 
-### R1D4
+### R1D4 - 2019/05/17
+Kept working on 'test_bcb_api.py' and made some adjustments to the original bcb_api.py file.
+
+### R1D5

@@ -22,4 +22,8 @@ Almost finishing the unittest file for the FinancialIndicesApi class, two method
 ### R1D6 - 2019/05/19
 Kept working on my unittest file for the FinancialIndicesApi. I'm struggling a lot on design decisions.
 
-### R1D7
+### R1D7 - 2019/05/21
+Still working on my tests for the FinancialIndicesApi class. Made a lot of changes to the behaviour of the _create_api_url() method.
+I'm also re-thinking about the design decisions made for the _remove_wrong_records() method.
+
+### R1D8

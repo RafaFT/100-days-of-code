@@ -19,4 +19,7 @@ Kept working on 'test_bcb_api.py' and made some adjustments to the original bcb_
 ### R1D5 - 2019/05/18
 Almost finishing the unittest file for the FinancialIndicesApi class, two methods left.
 
-### R1D6
+### R1D6 - 2019/05/19
+Kept working on my unittest file for the FinancialIndicesApi. I'm struggling a lot on design decisions.
+
+### R1D7

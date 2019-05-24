@@ -26,4 +26,7 @@ Kept working on my unittest file for the FinancialIndicesApi. I'm struggling a l
 Still working on my tests for the FinancialIndicesApi class. Made a lot of changes to the behaviour of the _create_api_url() method.
 I'm also re-thinking about the design decisions made for the _remove_wrong_records() method.
 
-### R1D8
+### R1D8 - 2019/05/22
+Worked mostly on changes to the bcb_api script, to make it pass the new unittests. 
+
+### R1D9 

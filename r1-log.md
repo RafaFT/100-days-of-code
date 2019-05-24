@@ -29,4 +29,7 @@ I'm also re-thinking about the design decisions made for the _remove_wrong_recor
 ### R1D8 - 2019/05/22
 Worked mostly on changes to the bcb_api script, to make it pass the new unittests. 
 
-### R1D9 
+### R1D9 - 2019/05/23
+Technically finished the unittest classes for the bcb_api script.
+
+### R1D10

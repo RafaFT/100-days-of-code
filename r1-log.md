@@ -38,4 +38,8 @@ Decided to chill a little bit (tired of tests) and just did a couple of codewars
 ### R1D11 - 2019/05/26
 Just did a few exercises from both hackerrank and codewars.
 
-### R1D12
+### R1D12 - 2019/05/27
+Today I did a lot. Did a couple of codewars exercises, finished updating the bcb_api.py, to make the class
+FinancialIndicesApi pass all unittests. Started making the unittest script for the IndicesExpander class.
+
+### R1D13

@@ -32,4 +32,7 @@ Worked mostly on changes to the bcb_api script, to make it pass the new unittest
 ### R1D9 - 2019/05/23
 Technically finished the unittest classes for the bcb_api script.
 
-### R1D10
+### R1D10 - 2019/05/25
+Decided to chill a little bit (tired of tests) and just did a couple of codewars and hackerrank exercises.
+
+### R1D11

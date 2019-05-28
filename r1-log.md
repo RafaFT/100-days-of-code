@@ -35,4 +35,7 @@ Technically finished the unittest classes for the bcb_api script.
 ### R1D10 - 2019/05/25
 Decided to chill a little bit (tired of tests) and just did a couple of codewars and hackerrank exercises.
 
-### R1D11
+### R1D11 - 2019/05/26
+Just did a few exercises from both hackerrank and codewars.
+
+### R1D12

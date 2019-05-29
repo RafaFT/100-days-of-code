@@ -42,4 +42,8 @@ Just did a few exercises from both hackerrank and codewars.
 Today I did a lot. Did a couple of codewars exercises, finished updating the bcb_api.py, to make the class
 FinancialIndicesApi pass all unittests. Started making the unittest script for the IndicesExpander class.
 
-### R1D13
+### R1D13 - 2019/05/28
+Did a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad) exercises and started making unittest script for
+the IndicesExpander class. Basically finished tests for the field _workdays and private method _daily_workdays_indices_expander().
+
+### R1D14

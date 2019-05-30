@@ -46,4 +46,8 @@ FinancialIndicesApi pass all unittests. Started making the unittest script for t
 Did a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad) exercises and started making unittest script for
 the IndicesExpander class. Basically finished tests for the field _workdays and private method _daily_workdays_indices_expander().
 
-### R1D14
+### R1D14 - 2019/05/29
+* Did one codewars exercise.
+* Wrote a few more test cases for the class TestDailyWorkdayIndicesExpander.
+* Created and wrote tests for the TestDailyThreeFieldIndicesExpander class.
+

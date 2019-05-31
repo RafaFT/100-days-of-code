@@ -51,3 +51,7 @@ the IndicesExpander class. Basically finished tests for the field _workdays and 
 * Wrote a few more test cases for the class TestDailyWorkdayIndicesExpander.
 * Created and wrote tests for the TestDailyThreeFieldIndicesExpander class.
 
+### R1D15 - 2019/05/30
+* Added support from year 2001 to 2011 to the workdays.csv file from [financial_indices project](https://github.com/RafaFT/financial_indices).
+* New file means broken classes and tests. Also updated the unittest test cases there were broken by the extra workdays.
+

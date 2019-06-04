@@ -55,3 +55,7 @@ the IndicesExpander class. Basically finished tests for the field _workdays and 
 * Added support from year 2001 to 2011 to the workdays.csv file from [financial_indices project](https://github.com/RafaFT/financial_indices).
 * New file means broken classes and tests. Also updated the unittest test cases there were broken by the extra workdays.
 
+### R1D16 - 2019/06/03
+* Studied logging a lot, both for work and personal project.
+* Today I did a somewhat model class of a QTreewidget with PyQy, and is just occured me that it might be fun to create and share some PyQy recipes.
+* Did a few more tests for the financial indices project, and started coding the IndicesExpander class.

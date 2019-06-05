@@ -57,5 +57,13 @@ the IndicesExpander class. Basically finished tests for the field _workdays and 
 
 ### R1D16 - 2019/06/03
 * Studied logging a lot, both for work and personal project.
-* Today I did a somewhat model class of a QTreewidget with PyQy, and is just occured me that it might be fun to create and share some PyQy recipes.
+* Today I did a somewhat model class of a QTreewidget with PyQt, and is just occurred me that it might be fun to create and share some PyQt recipes.
 * Did a few more tests for the financial indices project, and started coding the IndicesExpander class.
+
+### R1D17 - 2019/06/04
+* Spent a lot of time trying to understand how a specific financial indices dates (cod 226) actually works..
+understanding it is necessary as I'll need to create my own dates, following their rules, and also because I needed to
+write unittests examples.
+* Wrote the unittests based on the knowledge of the dates rules (method _get_next_days()).
+* Continued to write the IndicesExpander class.
+ 

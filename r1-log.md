@@ -67,3 +67,6 @@ write unittests examples.
 * Wrote the unittests based on the knowledge of the dates rules (method _get_next_days()).
 * Continued to write the IndicesExpander class.
  
+ ### R1D18 - 2019/06/05
+* Fixed and created a couple of more tests for the classes TestGetNextDays and TestDailyThreeFieldIndicesExpander.
+* Actually wrote the methods of those tests, the _get_next_days() and _daily_three_field_indices_expander().

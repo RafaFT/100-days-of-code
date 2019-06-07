@@ -70,3 +70,7 @@ write unittests examples.
  ### R1D18 - 2019/06/05
 * Fixed and created a couple of more tests for the classes TestGetNextDays and TestDailyThreeFieldIndicesExpander.
 * Actually wrote the methods of those tests, the _get_next_days() and _daily_three_field_indices_expander().
+
+### R1D19 - 2019/06/06
+* Worked a lot on the new method _ipca_from_15_indices_expander of the IndicesExpander class. It was a little harder than
+I anticipated, and I'm not entirely satisfied with my solution... I might come back to this method again later.

@@ -84,3 +84,7 @@ end up being used in the [financial_indices project](https://github.com/RafaFT/f
 as a class UML. I actually created a prototype that I intend to add to github if possible (as a pdf maybe). The software
 I used to create the UML was [Ludichart](https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign=en_bucket_desktop_branded_x_bmm_lucidchart&km_CPC_CampaignId=1484560204&km_CPC_AdGroupID=60168105831&km_CPC_Keyword=%2Blucidchart&km_CPC_MatchType=b&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_TargetID=aud-536921399221:kwd-308734946772&km_CPC_Country=1001773&km_CPC_Device=c&mkwid=s&slid=&pgrid=60168105831&ptaid=aud-536921399221:kwd-308734946772&gclid=Cj0KCQjwov3nBRDFARIsANgsdoEBkYbj3gKFN5_D21s3HJgq5VQAby_IJmcuEcUhyGO58fsrJ9h7AP8aAo5KEALw_wcB),
 which seems awesome!
+
+### R1D22 - 2019/06/10
+* Wrote tests for the class IndicesWorkbook.
+* Started creating the class IndicesWorkbook on a new script.

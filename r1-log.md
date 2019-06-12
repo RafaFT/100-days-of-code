@@ -88,3 +88,10 @@ which seems awesome!
 ### R1D22 - 2019/06/10
 * Wrote tests for the class IndicesWorkbook.
 * Started creating the class IndicesWorkbook on a new script.
+
+### R1D23 - 2019/06/11
+* Continued to work on how to organize my [financial_indices project](https://github.com/RafaFT/financial_indices) as a
+class UML diagram, and it looks awesome! I definitely don't feel ashamed of adding it to my github, I just I'm not sure how
+to properly do it yet.
+* Based on my UML, I actually wrote the skeleton of a few more classes (WorksheetWriter classes).
+* Finished most of the IndicesWorkbook class.

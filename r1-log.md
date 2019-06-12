@@ -74,3 +74,7 @@ write unittests examples.
 ### R1D19 - 2019/06/06
 * Worked a lot on the new method _ipca_from_15_indices_expander of the IndicesExpander class. It was a little harder than
 I anticipated, and I'm not entirely satisfied with my solution... I might come back to this method again later.
+
+### R1D20 - 2019/06/07
+* Did not write code. I was stuck studying and comparing the json and configparser libraries. One or maybe even both might
+end up being used in the [financial_indices project](https://github.com/RafaFT/financial_indices).

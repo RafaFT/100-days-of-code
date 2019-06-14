@@ -95,3 +95,7 @@ class UML diagram, and it looks awesome! I definitely don't feel ashamed of addi
 to properly do it yet.
 * Based on my UML, I actually wrote the skeleton of a few more classes (WorksheetWriter classes).
 * Finished most of the IndicesWorkbook class.
+
+### R1D24 - 2019/06/12
+* Started writing the content of the Worksheet writer classes. Created the metaclass WorksheetWriter, and it's children,
+CdiWriter, SelicWriter, IpcaWriter and TrWriter.

@@ -99,3 +99,6 @@ to properly do it yet.
 ### R1D24 - 2019/06/12
 * Started writing the content of the Worksheet writer classes. Created the metaclass WorksheetWriter, and it's children,
 CdiWriter, SelicWriter, IpcaWriter and TrWriter.
+
+### R1D25 - 2019/06/13
+* Actually finished all of the worksheet writer classes. The program is almost finished.

@@ -105,3 +105,13 @@ CdiWriter, SelicWriter, IpcaWriter and TrWriter.
 
 ### R1D26 - 2019/06/15
 * Added a new class, MetadataWriter, which is going to add support to updating an existing workbook.
+
+
+### R1D27 - 2019/06/16
+* Add most of the functionality to the MetadataWriter class.
+* I can see three things missing on the program so far, besides the main function.
+1. Logging support.
+2. Worksheet protection by password.
+3. Maybe an initial prompt (probably using pyqt), for the user to decide which initial date to consider for each indices.
+    
+ 

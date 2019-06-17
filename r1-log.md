@@ -102,3 +102,6 @@ CdiWriter, SelicWriter, IpcaWriter and TrWriter.
 
 ### R1D25 - 2019/06/13
 * Actually finished all of the worksheet writer classes. The program is almost finished.
+
+### R1D26 - 2019/06/15
+* Added a new class, MetadataWriter, which is going to add support to updating an existing workbook.

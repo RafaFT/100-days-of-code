@@ -113,5 +113,12 @@ CdiWriter, SelicWriter, IpcaWriter and TrWriter.
 1. Logging support.
 2. Worksheet protection by password.
 3. Maybe an initial prompt (probably using pyqt), for the user to decide which initial date to consider for each indices.
-    
+
+### R1D28 - 2019/06/17
+* Created a board on Trello to help manage my [financial indices project](https://github.com/RafaFT/financial_indices).
+* Installed and played a little with the magic the gathering sdk in Python. I'm consider creating a site or web application
+around my favourite and long lasting card game.
+* Continued the course [web programming with python and js](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
+and created a simple web page. trying to become more familiar with both html and css.
+
  

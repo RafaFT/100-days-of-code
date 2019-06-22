@@ -123,3 +123,7 @@ and created a simple web page. trying to become more familiar with both html and
 
 ### R1D29 - 2019/06/18
 * Solved a few exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad)
+
+### R1D30 - 2019/06/20
+* Added protection functionality to all worksheets from my
+[financial indices project](https://github.com/RafaFT/financial_indices).

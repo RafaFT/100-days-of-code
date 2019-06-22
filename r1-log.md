@@ -121,4 +121,5 @@ around my favourite and long lasting card game.
 * Continued the course [web programming with python and js](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
 and created a simple web page. trying to become more familiar with both html and css.
 
- 
+### R1D29 - 2019/06/18
+* Solved a few exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad)

@@ -122,8 +122,13 @@ around my favourite and long lasting card game.
 and created a simple web page. trying to become more familiar with both html and css.
 
 ### R1D29 - 2019/06/18
-* Solved a few exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad)
+* Solved a few exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad).
 
 ### R1D30 - 2019/06/20
 * Added protection functionality to all worksheets from my
 [financial indices project](https://github.com/RafaFT/financial_indices).
+
+### R1D31 - 2019/06/21
+* Did a little of everything; Solved a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad) exercises,
+(informally) fixed a bug on [financial indices project](https://github.com/RafaFT/financial_indices), which was extending
+ipca values incorrectly and played a little with the MTG API.

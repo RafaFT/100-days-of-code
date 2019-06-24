@@ -135,3 +135,12 @@ ipca values incorrectly and played a little with the MTG API.
 
 ### R1D32 - 2019/06/22
 * Did a couple of exercises and flirted with magic a little more.
+
+### R1D33 - 2019/06/23
+* Worked a lot on the MTG idea. Got to understand a little more how all the data is structered, which helps me decide how
+I'll actually organize a relational database for it.
+* Worked on [financial indices project](https://github.com/RafaFT/financial_indices). I've started thinking about logging
+and how I'll organize it (should i actually write on file?)
+* I'm seriously considering adding some minor user interface to the project, just so he user can pick the start date for
+each indices (for the first time the program is executed), and whick indices will be tracked.
+

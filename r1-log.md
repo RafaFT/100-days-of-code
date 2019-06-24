@@ -132,3 +132,6 @@ and created a simple web page. trying to become more familiar with both html and
 * Did a little of everything; Solved a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad) exercises,
 (informally) fixed a bug on [financial indices project](https://github.com/RafaFT/financial_indices), which was extending
 ipca values incorrectly and played a little with the MTG API.
+
+### R1D32 - 2019/06/22
+* Did a couple of exercises and flirted with magic a little more.

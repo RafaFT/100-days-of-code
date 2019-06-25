@@ -144,3 +144,7 @@ and how I'll organize it (should i actually write on file?)
 * I'm seriously considering adding some minor user interface to the project, just so he user can pick the start date for
 each indices (for the first time the program is executed), and whick indices will be tracked.
 
+### R1D34 - 2019/06/24
+* Created decorator to log the time it takes for a funtion to execute.
+* Added loggings to both bcb_api and indices_expander files.
+* Created a couple of new helper functions on indices_expander.py.

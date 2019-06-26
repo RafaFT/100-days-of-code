@@ -148,3 +148,9 @@ each indices (for the first time the program is executed), and whick indices wil
 * Created decorator to log the time it takes for a funtion to execute.
 * Added loggings to both bcb_api and indices_expander files.
 * Created a couple of new helper functions on indices_expander.py.
+
+### R1D35 - 2019/06/25
+* Created tests for the new methods from IndicesExpander.
+* Added a bunch of logging to all scripts.
+* Realized that the program works, but it's consuming around 4 gb of RAM!!!!! Trying to understand why, and how I can
+change that.

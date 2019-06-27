@@ -154,3 +154,7 @@ each indices (for the first time the program is executed), and whick indices wil
 * Added a bunch of logging to all scripts.
 * Realized that the program works, but it's consuming around 4 gb of RAM!!!!! Trying to understand why, and how I can
 change that.
+
+### R1D36 - 2019/06/26
+* Studied URL's, HTTP requests and responses from udacity's course [Intro to Backend](https://classroom.udacity.com/courses/ud171).
+* Studied flask from [this tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo).

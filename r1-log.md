@@ -158,3 +158,9 @@ change that.
 ### R1D36 - 2019/06/26
 * Studied URL's, HTTP requests and responses from udacity's course [Intro to Backend](https://classroom.udacity.com/courses/ud171).
 * Studied flask from [this tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo).
+
+### R1D37 - 2019/07/13
+* YES, I did code everyday, but completely forgot to log it in... =(
+* Today I studied the concept of CSS grid layout
+* Made a small mock up for my personal website
+ 

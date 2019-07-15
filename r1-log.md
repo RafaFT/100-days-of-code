@@ -163,4 +163,8 @@ change that.
 * YES, I did code everyday, but completely forgot to log it in... =(
 * Today I studied the concept of CSS grid layout
 * Made a small mock up for my personal website
- 
+
+### R1D38 - 2019/07/14
+* Read an [article](https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163?source=bookmarks---------2-----------------------) that basically sold me the benefits of css grid layout and linked me to an interesting course on the subject
+* Took the small but very interesting course on css grid layout [here](https://scrimba.com/g/gR8PTE)
+* Wrote a HTML version of my personal website. Will post it to [github](https://github.com/RafaFT/RafaFT.github.io) once I finish the css

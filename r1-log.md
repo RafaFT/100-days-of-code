@@ -168,3 +168,8 @@ change that.
 * Read an [article](https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163?source=bookmarks---------2-----------------------) that basically sold me the benefits of css grid layout and linked me to an interesting course on the subject
 * Took the small but very interesting course on css grid layout [here](https://scrimba.com/g/gR8PTE)
 * Wrote a HTML version of my personal website. Will post it to [github](https://github.com/RafaFT/RafaFT.github.io) once I finish the css
+
+### R1D39 - 2019/07/15
+* Wrote the CSS file for my index.html page
+* Add/experimented with media query
+* The simple site is already up [here](https://rafaft.github.io)

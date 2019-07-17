@@ -173,3 +173,8 @@ change that.
 * Wrote the CSS file for my index.html page
 * Add/experimented with media query
 * The simple site is already up [here](https://rafaft.github.io)
+
+### R1D40 - 2019/07/16
+* Updated my [personal web site](https://trello.com/b/1yXGT3dd/personal-website-1) and [financial indices](https://trello.com/b/xtCrULsg/financialindices) Trello's cards
+* Identified and fixed an issue in the financial_indices project, where by running the program from an executable file, an uncaught exception would break the program without logging, making it very hard to debug. The solution I found is to override the function sys.excepthook, which is called right before exiting the program when an error uncaught is raised.
+ 

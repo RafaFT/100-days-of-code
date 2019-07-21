@@ -177,4 +177,9 @@ change that.
 ### R1D40 - 2019/07/16
 * Updated my [personal web site](https://trello.com/b/1yXGT3dd/personal-website-1) and [financial indices](https://trello.com/b/xtCrULsg/financialindices) Trello's cards
 * Identified and fixed an issue in the financial_indices project, where by running the program from an executable file, an uncaught exception would break the program without logging, making it very hard to debug. The solution I found is to override the function sys.excepthook, which is called right before exiting the program when an error uncaught is raised.
- 
+
+### R1D41 - 2019/07/20
+* Again, I did code everyday, but unfortunately I did not logged it in
+* Today I continued my study of HTML CSS and JS from mozilla's tutorial, I stopped [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+* For now, I added my [calculator website](https://rafaft.github.io/financial/) on [github](https://github.com/RafaFT/financial), in order to see it on my phone easily, by using github pages
+* Today I played a little bit with JS, and was able to implement dynamic behavior to two columns, where one disappears and the other extends when necessary

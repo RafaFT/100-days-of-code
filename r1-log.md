@@ -183,3 +183,8 @@ change that.
 * Today I continued my study of HTML CSS and JS from mozilla's tutorial, I stopped [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 * For now, I added my [calculator website](https://rafaft.github.io/financial/) on [github](https://github.com/RafaFT/financial), in order to see it on my phone easily, by using github pages
 * Today I played a little bit with JS, and was able to implement dynamic behavior to two columns, where one disappears and the other extends when necessary
+
+### R1D42 - 2019/07/21
+* Solved one exercise from [HackerRank](https://www.hackerrank.com/rafael_ftrad?hr_r=1)
+* Fixed a bug from my mockup calculator [webpage](https://rafaft.github.io/financial/), where the js was failing to toggle on a column when the reset button was pressed
+* Kept studying MDN's tutorial on web development

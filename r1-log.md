@@ -188,3 +188,7 @@ change that.
 * Solved one exercise from [HackerRank](https://www.hackerrank.com/rafael_ftrad?hr_r=1)
 * Fixed a bug from my mockup calculator [webpage](https://rafaft.github.io/financial/), where the js was failing to toggle on a column when the reset button was pressed
 * Kept studying MDN's tutorial on web development
+
+### R1D43 - 2019/07/22
+* Continued to study MDN's tutorial 
+* Worked a lot on my [website](https://rafaft.github.io/), fixing some [issues](https://trello.com/b/1yXGT3dd/personal-website-1) and mostly simplifying underline code

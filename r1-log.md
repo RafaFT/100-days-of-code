@@ -192,3 +192,6 @@ change that.
 ### R1D43 - 2019/07/22
 * Continued to study MDN's tutorial 
 * Worked a lot on my [website](https://rafaft.github.io/), fixing some [issues](https://trello.com/b/1yXGT3dd/personal-website-1) and mostly simplifying underline code
+
+### R1D44 - 2019/07/23
+* Completed the module's 2 (CSS 3) exercise from coursera's course on this [github pages](https://rafaft.github.io/html-css-and-javascript-for-web-developers/)

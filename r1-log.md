@@ -195,3 +195,7 @@ change that.
 
 ### R1D44 - 2019/07/23
 * Completed the module's 2 (CSS 3) exercise from coursera's course on this [github pages](https://rafaft.github.io/html-css-and-javascript-for-web-developers/)
+
+### R1D45 - 2019/07/24
+* Studied a little bit of forms from MDN's tutoril
+* Graded the module's 2 exercise from coursera's course, and found a bug on my media query by testing other people's code

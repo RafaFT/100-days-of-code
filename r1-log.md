@@ -200,6 +200,10 @@ change that.
 * Studied a little bit of forms from MDN's tutoril
 * Graded the module's 2 exercise from coursera's course, and found a bug on my media query by testing other people's code
 
-### R1d46 - 2019/07/25
+### R1D46 - 2019/07/25
 * Continued my study on [MDN's tutorial](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 * Updated my [website](https://rafaft.github.io/) so that when the header nav bar doesn't fit in just one column, instead of breaking into another row, a horizontal scroll bar appears
+
+### R1D47 - 2019/07/27
+* Took some time to actually read and learn a little bit about VSCode's configuration system. Learned how to set up some manual settings for specific languages... settings.json is awesome and the default setting's json file helps a lot too!
+* Studied [pyinstaller's documentation](https://pyinstaller.readthedocs.io/en/stable/usage.html). I learned how to separately create a spec file and how to add data files to the executable. Also figured it out how to make the 'app' correctly aware of it's location during runtime (python interpreter could simply use __file__).

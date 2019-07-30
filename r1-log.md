@@ -207,3 +207,7 @@ change that.
 ### R1D47 - 2019/07/27
 * Took some time to actually read and learn a little bit about VSCode's configuration system. Learned how to set up some manual settings for specific languages... settings.json is awesome and the default setting's json file helps a lot too!
 * Studied [pyinstaller's documentation](https://pyinstaller.readthedocs.io/en/stable/usage.html). I learned how to separately create a spec file and how to add data files to the executable. Also figured it out how to make the 'app' correctly aware of it's location during runtime (python interpreter could simply use __file__).
+
+### R1d48 - 2019/07/28
+* Worked on my [financial indices project](https://github.com/RafaFT/financial_indices) and uploaded it to github. The project is functional and ready to use. But it doesn't have any relevant docs on github yet, and I'm not sure if and how an executable should be uplodad as well. I'll get into that.
+* Started writing some ideas for my new project, 'calculadoras.app' on Trello. Also thought about a new feature for the financial indices project, which should be fairly easy to implement.

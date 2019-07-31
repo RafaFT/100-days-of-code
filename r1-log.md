@@ -212,6 +212,11 @@ change that.
 * Worked on my [financial indices project](https://github.com/RafaFT/financial_indices) and uploaded it to github. The project is functional and ready to use. But it doesn't have any relevant docs on github yet, and I'm not sure if and how an executable should be uplodad as well. I'll get into that.
 * Started writing some ideas for my new project, 'calculadoras.app' on Trello. Also thought about a new feature for the financial indices project, which should be fairly easy to implement.
 
-### R1d49 - 2019/07/29
+### R1D49 - 2019/07/29
 * Moved on a little bit from HTML and CSS and started learning some real JavaScript! The language is not as bad (so far) as many people over the internet imply it to be, but it is a little weird. The difference (existence actually) between the two equality operators, regular (==) and strict (===) is simply bizarre! The lack of an error when calling a funtion without it's argument is also awkward.
 * Did a couple of [HackerRank](https://www.hackerrank.com/dashboard) Javascript exercises.
+
+### R1D50 - 2019/07/30
+* Did a couple of exercises from codewars (only python =()
+* Minor fix to my website.
+* Minor fixes to the unittest files from the [financial-indices project](https://github.com/RafaFT/financial_indices).

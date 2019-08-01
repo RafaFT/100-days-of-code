@@ -220,3 +220,9 @@ change that.
 * Did a couple of exercises from codewars (only python =()
 * Minor fix to my website.
 * Minor fixes to the unittest files from the [financial-indices project](https://github.com/RafaFT/financial_indices).
+
+### R1D51 - 2019/07/31
+
+* Today I took a break on studying JS and played a little with GCP
+* I used both GC Console and the shell that comes with the SDK to create and delete some projects
+* Tomorrow I intend on finishing the tutorial 'Building an app' from the [Python 3 Standard Environment](https://cloud.google.com/appengine/docs/standard/python3/) docs.

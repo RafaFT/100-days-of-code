@@ -5,7 +5,7 @@ The log of my #100DaysOfCode challenge. Started on May 13, Monday, 2019.
 ## Log
 
 ### R1D1 - 2019/05/13
-Started writing unittests for the _FinancialIndicesApi_ class, and finished the tests for the _create_api_url() method. 
+Started writing unittests for the _FinancialIndicesApi_ class, and finished the tests for the _create_api_url() method.
 
 ### R1D2 - 2019/05/14
 Kept working on the same unittest script. Finished the tests for the method _get_json_results.
@@ -27,7 +27,7 @@ Still working on my tests for the FinancialIndicesApi class. Made a lot of chang
 I'm also re-thinking about the design decisions made for the _remove_wrong_records() method.
 
 ### R1D8 - 2019/05/22
-Worked mostly on changes to the bcb_api script, to make it pass the new unittests. 
+Worked mostly on changes to the bcb_api script, to make it pass the new unittests.
 
 ### R1D9 - 2019/05/23
 Technically finished the unittest classes for the bcb_api script.
@@ -66,7 +66,7 @@ understanding it is necessary as I'll need to create my own dates, following the
 write unittests examples.
 * Wrote the unittests based on the knowledge of the dates rules (method _get_next_days()).
 * Continued to write the IndicesExpander class.
- 
+
  ### R1D18 - 2019/06/05
 * Fixed and created a couple of more tests for the classes TestGetNextDays and TestDailyThreeFieldIndicesExpander.
 * Actually wrote the methods of those tests, the _get_next_days() and _daily_three_field_indices_expander().
@@ -190,7 +190,7 @@ change that.
 * Kept studying MDN's tutorial on web development
 
 ### R1D43 - 2019/07/22
-* Continued to study MDN's tutorial 
+* Continued to study MDN's tutorial
 * Worked a lot on my [website](https://rafaft.github.io/), fixing some [issues](https://trello.com/b/1yXGT3dd/personal-website-1) and mostly simplifying underline code
 
 ### R1D44 - 2019/07/23
@@ -226,3 +226,8 @@ change that.
 * Today I took a break on studying JS and played a little with GCP
 * I used both GC Console and the shell that comes with the SDK to create and delete some projects
 * Tomorrow I intend on finishing the tutorial 'Building an app' from the [Python 3 Standard Environment](https://cloud.google.com/appengine/docs/standard/python3/) docs.
+
+### R1D52 - 2019/08/06
+
+* Did a couple of JavaScript exercises from codewars
+* Resumed my studies of relational databases from [udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197)

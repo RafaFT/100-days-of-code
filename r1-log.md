@@ -227,7 +227,12 @@ change that.
 * I used both GC Console and the shell that comes with the SDK to create and delete some projects
 * Tomorrow I intend on finishing the tutorial 'Building an app' from the [Python 3 Standard Environment](https://cloud.google.com/appengine/docs/standard/python3/) docs.
 
-### R1D52 - 2019/08/06
+### R1D52 - 2019/08/05
 
 * Did a couple of JavaScript exercises from codewars
 * Resumed my studies of relational databases from [udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197)
+
+### R1D53 - 2019/08/06
+
+* Finally answer a question on [Stack Overflow](https://stackoverflow.com/questions/57384648/what-is-printnot-in-python/57385554#57385554)
+* Continued the Udacity's course on [Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)

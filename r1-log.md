@@ -236,3 +236,8 @@ change that.
 
 * Finally answer a question on [Stack Overflow](https://stackoverflow.com/questions/57384648/what-is-printnot-in-python/57385554#57385554)
 * Continued the Udacity's course on [Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)
+
+### R1D54 - 2019/08/08
+
+* Studied more SQL from both [Udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197) and [Corey Scafer's youtube tutorial](https://www.youtube.com/watch?v=pd-0G0MigUA)
+* Worked a little bit on the calculator project and actually wrote a few tests using sqlite3 lib. A database with all 13 indices from since the beginning of each up to today, has 48060 records.

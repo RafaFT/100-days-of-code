@@ -243,5 +243,11 @@ change that.
 * Worked a little bit on the calculator project and actually wrote a few tests using sqlite3 lib. A database with all 13 indices from since the beginning of each up to today, has 48060 records.
 
 ### R1D55 - 2019/08/09
+
 * Continued my studies of Udacity's course and it's almost done
-* Started writing a scriptfor the calculators proect
+* Started writing a script for the calculators project
+
+### R1D56 - 2019/08/10
+
+* Worked on the calculator project and got a few tables already running, with PK, FK and adequate reference integrity
+* The most important table, IndicesRecord, which holds all of the indices records values and dates is already up and running

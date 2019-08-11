@@ -241,3 +241,7 @@ change that.
 
 * Studied more SQL from both [Udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197) and [Corey Scafer's youtube tutorial](https://www.youtube.com/watch?v=pd-0G0MigUA)
 * Worked a little bit on the calculator project and actually wrote a few tests using sqlite3 lib. A database with all 13 indices from since the beginning of each up to today, has 48060 records.
+
+### R1D55 - 2019/08/09
+* Continued my studies of Udacity's course and it's almost done
+* Started writing a scriptfor the calculators proect

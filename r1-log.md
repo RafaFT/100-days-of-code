@@ -251,3 +251,7 @@ change that.
 
 * Worked on the calculator project and got a few tables already running, with PK, FK and adequate reference integrity
 * The most important table, IndicesRecord, which holds all of the indices records values and dates is already up and running
+
+### R1D57 - 2019/08/11
+
+* Worked on the calculator project and finished the init_db.py script, which is responsible for creating and populating the database for the first time

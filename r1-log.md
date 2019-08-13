@@ -255,3 +255,9 @@ change that.
 ### R1D57 - 2019/08/11
 
 * Worked on the calculator project and finished the init_db.py script, which is responsible for creating and populating the database for the first time
+
+### R1D58 - 2019/08/12
+
+* Today I studied a lot! Listened [Harvard's SQL](https://www.youtube.com/watch?v=Eda-NmcE5mQ) talk from the [Web programming with Python and Javascript course](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
+* Continued to work on the calculators project. Today I changed a json configuration file for a singleton dict like class
+* Created utils.py and also update_db.py, which is responsible for updating the tables created by the init_db.py file

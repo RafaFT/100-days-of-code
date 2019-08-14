@@ -261,3 +261,7 @@ change that.
 * Today I studied a lot! Listened [Harvard's SQL](https://www.youtube.com/watch?v=Eda-NmcE5mQ) talk from the [Web programming with Python and Javascript course](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
 * Continued to work on the calculators project. Today I changed a json configuration file for a singleton dict like class
 * Created utils.py and also update_db.py, which is responsible for updating the tables created by the init_db.py file
+
+### R1D59 - 2019/08/13
+
+* Kept working on the calculators project. Decoupled the creation and initial population of the database tables. Now, the _init_db.py_ is responsible for only the creation of the tables, and the _update_db.py_ can be used to both populate the initial values of the tables, as well as update the values of an existing one.

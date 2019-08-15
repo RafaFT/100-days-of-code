@@ -265,3 +265,8 @@ change that.
 ### R1D59 - 2019/08/13
 
 * Kept working on the calculators project. Decoupled the creation and initial population of the database tables. Now, the _init_db.py_ is responsible for only the creation of the tables, and the _update_db.py_ can be used to both populate the initial values of the tables, as well as update the values of an existing one.
+
+### R1D60 - 2019/08/14
+
+* Took a little bit more of the [Udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197) and I'am almost done
+* Continued working on the Calculator's project. Added definition to create the new table 'IndicesValues' and finished the function to update the table 'IndicesRecords', by using the class 'BcbApi', which is the renamed class 'FinancialIndicesApi' from the script _bcb_api.py_ of my [Financial-Indices project](https://github.com/RafaFT/financial_indices)

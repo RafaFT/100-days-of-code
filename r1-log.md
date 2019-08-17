@@ -270,3 +270,7 @@ change that.
 
 * Took a little bit more of the [Udacity's course](https://www.udacity.com/course/intro-to-relational-databases--ud197) and I'am almost done
 * Continued working on the Calculator's project. Added definition to create the new table 'IndicesValues' and finished the function to update the table 'IndicesRecords', by using the class 'BcbApi', which is the renamed class 'FinancialIndicesApi' from the script _bcb_api.py_ of my [Financial-Indices project](https://github.com/RafaFT/financial_indices)
+
+### R1D61 - 2019/08/16
+
+* Created the table Workdays, IndicesValues and IndicesValuesMeta on the Calculator's project

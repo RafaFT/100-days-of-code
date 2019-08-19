@@ -279,3 +279,9 @@ change that.
 
 * Worked a lot on the functions necessaries to update/add values for the new tables, IndicesValues and IndicesValuesMeta
 * Created decorator 'connection_handler', which handles the creation of the connection and cursor of sqlite3, as well as the logic for when to commit, rollback and close
+
+### R1D63 - 2019/08/18
+
+* Created adapters and converters to the sqlite3 for both date and decimal types. The adapters are encapsulated inside the new decorator for SQL connections. The catch is that for the decorated function to have access to the cursor (or connection), it must be passed as an argument, which makes all decorated functions to have a extra parameter
+* Finished the overall logic of the update functions for the tables IndicesRecords, IndicesValues and IndicesValuesMeta
+* Started writing the class responsible for expanding records values from IndicesRecords for the IndicesValues table

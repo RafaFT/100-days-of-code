@@ -274,3 +274,8 @@ change that.
 ### R1D61 - 2019/08/16
 
 * Created the table Workdays, IndicesValues and IndicesValuesMeta on the Calculator's project
+
+### R1D62 - 2019/08/17
+
+* Worked a lot on the functions necessaries to update/add values for the new tables, IndicesValues and IndicesValuesMeta
+* Created decorator 'connection_handler', which handles the creation of the connection and cursor of sqlite3, as well as the logic for when to commit, rollback and close

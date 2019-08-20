@@ -285,3 +285,9 @@ change that.
 * Created adapters and converters to the sqlite3 for both date and decimal types. The adapters are encapsulated inside the new decorator for SQL connections. The catch is that for the decorated function to have access to the cursor (or connection), it must be passed as an argument, which makes all decorated functions to have a extra parameter
 * Finished the overall logic of the update functions for the tables IndicesRecords, IndicesValues and IndicesValuesMeta
 * Started writing the class responsible for expanding records values from IndicesRecords for the IndicesValues table
+
+### R1D64 - 2019/08/19
+
+* Fixed minor bugs from update_db.py
+* Refactor indices_expander.py and IndicesExpander to indices_values.py and IndicesValuesHelper, since the idea of this class and script is now for converting original indices records from the api, into values appropriated for calculation
+* Added more functionality to the new class IndicesValuesHelper

@@ -291,3 +291,9 @@ change that.
 * Fixed minor bugs from update_db.py
 * Refactor indices_expander.py and IndicesExpander to indices_values.py and IndicesValuesHelper, since the idea of this class and script is now for converting original indices records from the api, into values appropriated for calculation
 * Added more functionality to the new class IndicesValuesHelper
+
+### R1D65 - 2019/08/20
+
+* Finished the [Intro to Relational Databases](https://classroom.udacity.com/courses/ud197) course
+* Basically finished the first feature of my calculators app, which is the capability of storing and updating financial indices information, which is necessary for performing some kinds of calculations. I'll have to visit this topic again, once I start to prepare for deployment, and have to change the RDBMS from sqlite3 to MySQL, which is what GCP supports
+* The second feature of my app is an API that actually performs the calculations mentioned in the item above (update a value by the CDI, for example). Since this API will most likely respond to an HTTP request, I decided to learn more about the topic and started taking another [course on Udacity](https://classroom.udacity.com/courses/ud897) and reading about it on [MDN's website](https://developer.mozilla.org/en-US/docs/Web/HTTP)

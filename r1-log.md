@@ -297,3 +297,10 @@ change that.
 * Finished the [Intro to Relational Databases](https://classroom.udacity.com/courses/ud197) course
 * Basically finished the first feature of my calculators app, which is the capability of storing and updating financial indices information, which is necessary for performing some kinds of calculations. I'll have to visit this topic again, once I start to prepare for deployment, and have to change the RDBMS from sqlite3 to MySQL, which is what GCP supports
 * The second feature of my app is an API that actually performs the calculations mentioned in the item above (update a value by the CDI, for example). Since this API will most likely respond to an HTTP request, I decided to learn more about the topic and started taking another [course on Udacity](https://classroom.udacity.com/courses/ud897) and reading about it on [MDN's website](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+
+### R1D66 - 2019/08/21
+
+* Continued my study of HTTP from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP) and [Udacity's](https://classroom.udacity.com/courses/ud897) course
+* Updated the [Trello](https://trello.com/b/xtCrULsg/financialindices) for the [financial-indices](https://github.com/RafaFT/financial_indices) project
+* Removed the use the extra 1300 columns from the CDI worksheet
+* Replaced float values with decimal.Decimal values

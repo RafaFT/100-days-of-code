@@ -304,3 +304,10 @@ change that.
 * Updated the [Trello](https://trello.com/b/xtCrULsg/financialindices) for the [financial-indices](https://github.com/RafaFT/financial_indices) project
 * Removed the use the extra 1300 columns from the CDI worksheet
 * Replaced float values with decimal.Decimal values
+
+### R1D67 - 2019/08/22
+
+* Started taking [GCP Essentials Quest](https://google.qwiklabs.com/quests/23), which is the most basic one available. I intend to complete one QwikLabs a day
+* Did a few [codewars exercises](https://www.codewars.com/users/RafaFT)
+* Studied a little bit more of [HTTP and client-server communication](https://www.udacity.com/course/client-server-communication--ud897)
+* Add a tag to my financial-indicators project (the name 'indices' was incorret) and a [release on github](https://github.com/RafaFT/financial-indicators/releases), with the executable

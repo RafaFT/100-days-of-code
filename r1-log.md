@@ -311,3 +311,7 @@ change that.
 * Did a few [codewars exercises](https://www.codewars.com/users/RafaFT)
 * Studied a little bit more of [HTTP and client-server communication](https://www.udacity.com/course/client-server-communication--ud897)
 * Add a tag to my financial-indicators project (the name 'indices' was incorret) and a [release on github](https://github.com/RafaFT/financial-indicators/releases), with the executable
+
+### R1D68 - 2019/08/23
+
+* Finished two more courses from [GCP Essentials Quest](https://google.qwiklabs.com/quests/23), [Creating a Virtual Machine](https://www.qwiklabs.com/focuses/3563?parent=catalog), and [Getting Started with Cloud Shell](https://www.qwiklabs.com/focuses/563?parent=catalog) 

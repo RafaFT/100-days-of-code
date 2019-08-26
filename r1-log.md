@@ -319,3 +319,8 @@ change that.
 ### R1D69 - 2019/08/24
 
 * Did a major refactor on the financial-indicators (old financial-indices) project, because, it turned out the translation of 'indicador' is not 'indices', but 'indicators'
+
+### R1D70 - 2019/08/25
+
+* Completed the [GCP Essentials quest](https://www.qwiklabs.com/quests/23) and earned my badge! It's already on LinkedIn xD
+* Completed the first course (on storage) from my new GCP quest, [Baseline: Infrastructure](https://www.qwiklabs.com/quests/33), which seems awesome!

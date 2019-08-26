@@ -314,4 +314,8 @@ change that.
 
 ### R1D68 - 2019/08/23
 
-* Finished two more courses from [GCP Essentials Quest](https://google.qwiklabs.com/quests/23), [Creating a Virtual Machine](https://www.qwiklabs.com/focuses/3563?parent=catalog), and [Getting Started with Cloud Shell](https://www.qwiklabs.com/focuses/563?parent=catalog) 
+* Finished two more courses from [GCP Essentials Quest](https://google.qwiklabs.com/quests/23), [Creating a Virtual Machine](https://www.qwiklabs.com/focuses/3563?parent=catalog), and [Getting Started with Cloud Shell](https://www.qwiklabs.com/focuses/563?parent=catalog)
+
+### R1D69 - 2019/08/24
+
+* Did a major refactor on the financial-indicators (old financial-indices) project, because, it turned out the translation of 'indicador' is not 'indices', but 'indicators'

@@ -329,3 +329,8 @@ change that.
 
 * Studied a lot about [firestore](https://cloud.google.com/firestore/docs/) and the differences between Relational Databases and NoSQL ones
 * Learned some basic concepts of firestore, like collections, documents, fields and some concepts from Python's client Library
+
+### R1D72 - 2019/08/27
+
+* Continued to study firestore concepts and how to interact with it. Found an amazing [youtube channel](https://www.youtube.com/playlist?list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ) from google that gives great explanation
+* Started creating the same create/update functionality of financial indices database from the _R1D63_, but this time using the firestore database

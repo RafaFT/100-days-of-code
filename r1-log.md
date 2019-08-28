@@ -324,3 +324,8 @@ change that.
 
 * Completed the [GCP Essentials quest](https://www.qwiklabs.com/quests/23) and earned my badge! It's already on LinkedIn xD
 * Completed the first course (on storage) from my new GCP quest, [Baseline: Infrastructure](https://www.qwiklabs.com/quests/33), which seems awesome!
+
+### R1D71 - 2019/08/26
+
+* Studied a lot about [firestore](https://cloud.google.com/firestore/docs/) and the differences between Relational Databases and NoSQL ones
+* Learned some basic concepts of firestore, like collections, documents, fields and some concepts from Python's client Library

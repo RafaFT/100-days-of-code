@@ -334,3 +334,7 @@ change that.
 
 * Continued to study firestore concepts and how to interact with it. Found an amazing [youtube channel](https://www.youtube.com/playlist?list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ) from google that gives great explanation
 * Started creating the same create/update functionality of financial indices database from the _R1D63_, but this time using the firestore database
+
+### R1D73 - 2019/08/31
+
+* Worked a LOT on the calculators project, creating a cron job for updating the firestore database with IndicatorRecord's, fixing .gcloudignore and requirements.txt, and a very basic main.py file.

@@ -338,3 +338,7 @@ change that.
 ### R1D73 - 2019/08/31
 
 * Worked a LOT on the calculators project, creating a cron job for updating the firestore database with IndicatorRecord's, fixing .gcloudignore and requirements.txt, and a very basic main.py file.
+
+### R1D74 - 2019/09/02
+
+* Did a major refactor and organization on the script responsible for updating the firestore database. Split the main function into smaller procedures and I'm basically preparing the script for handling the indicator values that will actually be used and query for calculation

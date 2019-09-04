@@ -342,3 +342,8 @@ change that.
 ### R1D74 - 2019/09/02
 
 * Did a major refactor and organization on the script responsible for updating the firestore database. Split the main function into smaller procedures and I'm basically preparing the script for handling the indicator values that will actually be used and query for calculation
+
+### R1D75 - 2019/09/03
+
+* Still working on the calculators project... Today I reorganized yet again the functions from the update_indicators script.
+* Started writing the function that will update the CalculatorIndicator collection from Firebase. There will be some complicated steps in the future, but for now, the retrieving of documents necessary for the process to begin is almost finished

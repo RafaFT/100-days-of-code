@@ -347,3 +347,8 @@ change that.
 
 * Still working on the calculators project... Today I reorganized yet again the functions from the update_indicators script.
 * Started writing the function that will update the CalculatorIndicator collection from Firebase. There will be some complicated steps in the future, but for now, the retrieving of documents necessary for the process to begin is almost finished
+
+### R1D76 - 2019/09/04
+
+* Wrote a few docs for the calculators project
+* Started writing the new adjust_calc_docs() function, which is responsible for preparing the documents to be inserted into the CalculationIndicator DB, filling all fields and adjusting the dates from monthly indicators

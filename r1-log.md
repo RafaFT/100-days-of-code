@@ -352,3 +352,8 @@ change that.
 
 * Wrote a few docs for the calculators project
 * Started writing the new adjust_calc_docs() function, which is responsible for preparing the documents to be inserted into the CalculationIndicator DB, filling all fields and adjusting the dates from monthly indicators
+
+### R1D77 - 2019/09/05
+
+* Created the Workdays collection DB on Firestore
+* Re-imagined how to solve the organization and structure of the documents on the CalculationIndicator collection

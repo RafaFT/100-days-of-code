@@ -357,3 +357,8 @@ change that.
 
 * Created the Workdays collection DB on Firestore
 * Re-imagined how to solve the organization and structure of the documents on the CalculationIndicator collection
+
+### R1D78 - 2019/09/09
+
+* I actually did code everyday.. Just forgot to log it in
+* Today I started connecting the dots of the croon job to update the collections BcbIndicator and CalculationIndicator

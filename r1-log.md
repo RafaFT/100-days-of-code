@@ -362,3 +362,7 @@ change that.
 
 * I actually did code everyday.. Just forgot to log it in
 * Today I started connecting the dots of the croon job to update the collections BcbIndicator and CalculationIndicator
+
+### R1D79 - 2019/09/11
+
+* Finished the logic to update the firestore collections BcbIndicator and CalculationIndicator, both on a cron job

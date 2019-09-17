@@ -366,3 +366,7 @@ change that.
 ### R1D79 - 2019/09/11
 
 * Finished the logic to update the firestore collections BcbIndicator and CalculationIndicator, both on a cron job
+
+### R1D80 - 2019/09/16
+
+* Started studying JavaScript again, from the [HTML, CSS and JavaScript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome) course

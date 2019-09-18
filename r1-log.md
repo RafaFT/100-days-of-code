@@ -370,3 +370,8 @@ change that.
 ### R1D80 - 2019/09/16
 
 * Started studying JavaScript again, from the [HTML, CSS and JavaScript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome) course
+
+### R1D81 - 2019/09/17
+
+* Continued my study of JavaScript. Considering starting another [course from Udacity](https://www.udacity.com/course/intro-to-javascript--ud803) which are usually more project driven
+* Took another look at my calculators page mock up. Started fixing some issues and will use it for a actual mock up for the 'official' calculators app

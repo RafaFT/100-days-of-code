@@ -375,3 +375,9 @@ change that.
 
 * Continued my study of JavaScript. Considering starting another [course from Udacity](https://www.udacity.com/course/intro-to-javascript--ud803) which are usually more project driven
 * Took another look at my calculators page mock up. Started fixing some issues and will use it for a actual mock up for the 'official' calculators app
+
+### R1D82 - 2019/09/18
+
+* I wanted to add some logic in the main.py file of the [calculators project](http://calculators-app.appspot.com/) that would log in every time it was executed in a firestore collection. But that backfired because of a `ServiceUnavailable: 503 Deadline Exceeded` error from the GCP that I could not resolve in 40 minutes...
+* Started a new [JavaScript course](https://www.udacity.com/course/intro-to-javascript--ud803) that will hopefully keep me interested
+* I intend to keep studying **javascript for front end** to help me get some things done, and **HTTP for the back end**, to understand more how things work and prepare myself for API's

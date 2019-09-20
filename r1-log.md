@@ -381,3 +381,10 @@ change that.
 * I wanted to add some logic in the main.py file of the [calculators project](http://calculators-app.appspot.com/) that would log in every time it was executed in a firestore collection. But that backfired because of a `ServiceUnavailable: 503 Deadline Exceeded` error from the GCP that I could not resolve in 40 minutes...
 * Started a new [JavaScript course](https://www.udacity.com/course/intro-to-javascript--ud803) that will hopefully keep me interested
 * I intend to keep studying **javascript for front end** to help me get some things done, and **HTTP for the back end**, to understand more how things work and prepare myself for API's
+
+### R1D83 - 2019/09/19
+
+* Took the Python questions from the Revelo website, apparently I passed
+* Did a couple of [HackerRank exercises](https://www.hackerrank.com/rafael_ftrad)
+* Finished the _Data Types & Variables_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
+* Actually learned a couple new things of JS, such as how to do string formatting like in Python, to avoid doing string concatenations all the time (using `` instead of quotes, and the ${variable_name} syntax)

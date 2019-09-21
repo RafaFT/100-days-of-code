@@ -388,3 +388,8 @@ change that.
 * Did a couple of [HackerRank exercises](https://www.hackerrank.com/rafael_ftrad)
 * Finished the _Data Types & Variables_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
 * Actually learned a couple new things of JS, such as how to do string formatting like in Python, to avoid doing string concatenations all the time (using `` instead of quotes, and the ${variable_name} syntax)
+
+### R1D84 - 2019/09/20
+
+* Did a couple of exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad)
+* Continued the [Intro to JavaScript course](https://classroom.udacity.com/courses/ud803)

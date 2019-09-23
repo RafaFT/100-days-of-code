@@ -393,3 +393,8 @@ change that.
 
 * Did a couple of exercises from [HackerRank](https://www.hackerrank.com/rafael_ftrad)
 * Continued the [Intro to JavaScript course](https://classroom.udacity.com/courses/ud803)
+
+### R1D85 - 2019/09/21
+
+* Did a couple of HackerRank and LeetCode exercises
+* Studied a bit of JavaScript conditionals (going to finish a module a day from the course, during the week)

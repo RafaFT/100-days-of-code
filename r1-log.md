@@ -398,3 +398,7 @@ change that.
 
 * Did a couple of HackerRank and LeetCode exercises
 * Studied a bit of JavaScript conditionals (going to finish a module a day from the course, during the week)
+
+### R1D86 - 2019/09/22
+
+* Today I visited my grandfather in the hospital, so I did not have access to my laptop, but I read the first two chapters from the [Grokking Algorithms](https://www.amazon.com.br/s?k=grokking+algorithms). Re-implemented a binary search algorithm and learned the concepts (and differences) of array and linked list

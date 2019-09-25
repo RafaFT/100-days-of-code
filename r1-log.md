@@ -402,3 +402,8 @@ change that.
 ### R1D86 - 2019/09/22
 
 * Today I visited my grandfather in the hospital, so I did not have access to my laptop, but I read the first two chapters from the [Grokking Algorithms](https://www.amazon.com.br/s?k=grokking+algorithms). Re-implemented a binary search algorithm and learned the concepts (and differences) of array and linked list
+
+### R1D87 - 2019/09/23
+
+* Tested a few things on GCP. I discovered that I don't actually need to access a service account credentials key once the code is being executed on the app engine. This basically means I only have to use the credentials key when running the backend locally. I'll probably change my code accordantly and just grab the firestore client in the main script for production, and for local tests I will set the path to the key on the environment variable GOOGLE_APPLICATION_CREDENTIALS
+* Did a couple of exercises

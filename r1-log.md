@@ -407,3 +407,9 @@ change that.
 
 * Tested a few things on GCP. I discovered that I don't actually need to access a service account credentials key once the code is being executed on the app engine. This basically means I only have to use the credentials key when running the backend locally. I'll probably change my code accordantly and just grab the firestore client in the main script for production, and for local tests I will set the path to the key on the environment variable GOOGLE_APPLICATION_CREDENTIALS
 * Did a couple of exercises
+
+### R1D88 - 2019/09/24
+
+* Finished the _Conditionals_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
+* Learned about JavaScript's _Ternary Operator_ (Python's if much better =)) and the _Switch Statement_
+* Did a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad)

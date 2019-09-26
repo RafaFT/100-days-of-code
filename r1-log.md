@@ -413,3 +413,8 @@ change that.
 * Finished the _Conditionals_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
 * Learned about JavaScript's _Ternary Operator_ (Python's if much better =)) and the _Switch Statement_
 * Did a couple of [HackerRank](https://www.hackerrank.com/rafael_ftrad)
+
+### R1D89 - 2019/09/25
+
+* Did a couple of exercises from codewars and hackerrank on JS, for practice
+* Almost finished the _Loops_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803)

@@ -422,3 +422,8 @@ change that.
 ### R1D90 - 2019/09/26
 
 * Finished the _Loops_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity and started taking the _Functions_ module
+
+### R1D91 - 2019/09/28
+
+* Finished the _Functions_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
+* it was very interesting and useful to learn about the concept of _hoisting_, which is a feature in JS where all functions and variables definition are executed before the actual JS script is executed. This means that if a function is defined after it has already been called, it would be valid code, since JS engine executes the definitions before

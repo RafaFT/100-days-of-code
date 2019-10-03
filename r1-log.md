@@ -427,3 +427,8 @@ change that.
 
 * Finished the _Functions_ section from the [JavaScript course](https://classroom.udacity.com/courses/ud803) from Udacity
 * it was very interesting and useful to learn about the concept of _hoisting_, which is a feature in JS where all functions and variables definition are executed before the actual JS script is executed. This means that if a function is defined after it has already been called, it would be valid code, since JS engine executes the definitions before
+
+### R1D92 - 2019/10/02
+
+* Since gcp services (such as app engine) don't need credentials to access other resources (such as firestore), once the application as been deployed, I removed and refactored all code that was trying to access the firestore client by using a credentials file
+* Started refactoring the whole project as microservices

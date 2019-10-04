@@ -432,3 +432,8 @@ change that.
 
 * Since gcp services (such as app engine) don't need credentials to access other resources (such as firestore), once the application as been deployed, I removed and refactored all code that was trying to access the firestore client by using a credentials file
 * Started refactoring the whole project as microservices
+
+### R1D93 - 2019/10/03
+
+* Refactored the whole project to be microservice compliant, very similar to the structure described by [google docs](https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-engine)
+* Finished the api for the Workdays firestore collection, with support for all workdays, or for all workdays given a year and month

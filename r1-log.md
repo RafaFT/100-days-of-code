@@ -437,3 +437,8 @@ change that.
 
 * Refactored the whole project to be microservice compliant, very similar to the structure described by [google docs](https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-engine)
 * Finished the api for the Workdays firestore collection, with support for all workdays, or for all workdays given a year and month
+
+### R1D94 - 2019/10/08
+
+* Started Working on the [luiza labs challenge](https://trello.com/b/tysBalCL/luizalabs-desafio)
+* Followed a LOT of GCP instructions and was able to actually deploy an App Engine service with access to a Cloud SQL MySQL instance

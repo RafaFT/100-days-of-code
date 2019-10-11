@@ -442,3 +442,9 @@ change that.
 
 * Started Working on the [luiza labs challenge](https://trello.com/b/tysBalCL/luizalabs-desafio)
 * Followed a LOT of GCP instructions and was able to actually deploy an App Engine service with access to a Cloud SQL MySQL instance
+
+### R1D95 - 2019/10/10
+
+* Finished the DB modeling and created the schema for tables 'Client' and 'FavoriteProduct'
+* Kept learning and exploring MySQL on cloud SQL
+* Struggling to use SqlAlchemy purely for the ORM features, and not for defining and creating tables (doc implies these are two different features)

@@ -453,3 +453,8 @@ change that.
 
 * Back from vacation
 * Did a few [LeetCode](https://leetcode.com/user9407y/) exercises
+
+### R1D97 - 2019/10/28
+
+* Started transitioning from URL parameters to Query Parameters on the workdays api (for filtering by year and/or month)
+* Add new indexes to the Workdays firestore DB

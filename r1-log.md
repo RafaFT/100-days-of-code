@@ -458,3 +458,8 @@ change that.
 
 * Started transitioning from URL parameters to Query Parameters on the workdays api (for filtering by year and/or month)
 * Add new indexes to the Workdays firestore DB
+
+### R1D98 - 2019/10/29
+
+* Created the methods necessary for any querying combinations for the workdays database (year, month, both and with order)
+* The (future) new bcb-api-service now access the workdays api by an environment varible defined in the app.yaml file, instead of a global variable defined directly on the file

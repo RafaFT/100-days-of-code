@@ -463,3 +463,9 @@ change that.
 
 * Created the methods necessary for any querying combinations for the workdays database (year, month, both and with order)
 * The (future) new bcb-api-service now access the workdays api by an environment varible defined in the app.yaml file, instead of a global variable defined directly on the file
+
+### R1D99 - 2019/10/31
+
+* Removed the "extra" functions necessary to query the workdays collection (by year, month, or both), and now use only one function for the job. The function create and updates the query by the query parameters given. This is "cleaner" than using 3 or 4 differente functions.
+* Removed the order parameter, since it's overhead and overkill... I don't need this option
+* Request to insert of a new workday now must originte from the same google cloud project (id) as the workdays api

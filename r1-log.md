@@ -477,3 +477,8 @@ change that.
 ### R1D99.2 - 2019/11/2
 
 * Did not code today (again), but I spent a couple of hours just fixing a bunch of other functions and references on my investment portfolio workbook.
+
+### R1D100 - 2019/11/3
+
+* Worked on the bcb-indicators api. The view function for GET now dynamically creates the firestore query (with support query parameters for both start and end dates, as well as ordering).
+* Fixed and change the behaviour of some functions from util.py.

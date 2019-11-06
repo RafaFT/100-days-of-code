@@ -486,3 +486,9 @@ change that.
 ### EXTRA: R1D101 - 2019/11/04
 
 * "Finished" the bcb-indicators api microservice. It can handle GET and POST requests, and has an URL for the first and latest indicator.
+
+### EXTRA: R1D102 - 2019/11/05
+
+* Started working on a new microservice, that will contain all cron jobs.
+* Started working on the script responsible for accessing and retrieving the indicator values from the BCB API.
+* Even thou I already had a script for that API, it was overly complex for the job, it used a class when a function might be just as good. And since the script will now be constrained in a miciroservice, there is no need for adjusting some values, such as setting financial values to decimal.

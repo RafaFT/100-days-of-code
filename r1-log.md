@@ -482,3 +482,7 @@ change that.
 
 * Worked on the bcb-indicators api. The view function for GET now dynamically creates the firestore query (with support query parameters for both start and end dates, as well as ordering).
 * Fixed and change the behaviour of some functions from util.py.
+
+### EXTRA: R1D101 - 2019/11/04
+
+* "Finished" the bcb-indicators api microservice. It can handle GET and POST requests, and has an URL for the first and latest indicator.

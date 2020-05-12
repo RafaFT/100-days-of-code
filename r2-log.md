@@ -13,3 +13,7 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 ### R2D2 - 2020/05/09
 
 1. Fixed bug described on day 1. The VNA API GET route now has support for query parameters `start_date`, `end_date` and `order`.
+
+### R2D3 - 2020/05/10
+
+1. Finished implementing an API for interacting with the Firestore Metadata records. The API implementation is bothering me little, as a lot of my decision seem kind of hacky! Specially after I've found [this blog](https://drstearns.github.io/tutorials/) with a bunch of relevant Go patterns (middlewares, making values available to all handlers, etc...). The metadata API implements a GET, POST and PATCH method.

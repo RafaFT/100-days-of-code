@@ -23,3 +23,9 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 1. Updated the POST handler on the Metadata API, to allow adding records without `latest_date` and/or `latest_calc_date`. Because those values cannot be known at the moment a record is being added for the first time (instead of using "0001-01-01" date values).
 
 2. Spent a lot of time writing down and organizing some ideas about Metadata. The next steps are to adjust a few things on the Metadata API, and later create a routine to update Metadata records/values on both Firestore, as well as Cloud Storage.
+
+### R2D5 - 2020/05/12
+
+1. Continued working on the Metadata API... Made some adjustments (couple more in mind).
+
+2. Modifying the way the update handler works proved to be more challenging than expected. I've started studying the `reflect` package, since it appears the be the best (correct) way of iterating both field names and field values of a struct.

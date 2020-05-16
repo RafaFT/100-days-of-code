@@ -33,3 +33,7 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 ### R2D6 - 2020/05/13
 
 1. Changed the behaviour of both httpDoc and firestoreDoc structs to be more explicitly, and interchangeable between one another.
+
+### R2D7 - 2020/05/14
+
+1. Update handler implementation now correctly ignores (skips) nil values. This implementation does use the `reflect` package, but in a more limited way than expected (simply verifying the internal value of an empty interface variable).

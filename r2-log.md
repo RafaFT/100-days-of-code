@@ -29,3 +29,7 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 1. Continued working on the Metadata API... Made some adjustments (couple more in mind).
 
 2. Modifying the way the update handler works proved to be more challenging than expected. I've started studying the `reflect` package, since it appears the be the best (correct) way of iterating both field names and field values of a struct.
+
+### R2D6 - 2020/05/13
+
+1. Changed the behaviour of both httpDoc and firestoreDoc structs to be more explicitly, and interchangeable between one another.

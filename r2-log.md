@@ -37,3 +37,15 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 ### R2D7 - 2020/05/14
 
 1. Update handler implementation now correctly ignores (skips) nil values. This implementation does use the `reflect` package, but in a more limited way than expected (simply verifying the internal value of an empty interface variable).
+
+### R2D8 - 2020/05/15
+
+Today I made a bunch of "minor" adjustments on the Metadata API, which is now oficially _good enough_.
+
+1. The Router's patterns now only match lowercase alphanumeric characters.
+
+2. Semantic validation of a document being added is done explicitly by the handler.
+
+3. The handler for getting all documents now returns a JSON object (dict), instead of a list.
+
+4. HTTP error status code are now more precise (ex: I can check failed firestore operation codes from [this](https://github.com/grpc/grpc-go/blob/master/codes/codes.go#L29) package, and return better HTTP error codes).

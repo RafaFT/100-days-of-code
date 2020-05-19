@@ -55,3 +55,7 @@ Today I made a bunch of "minor" adjustments on the Metadata API, which is now of
 Today I did not code at all.
 
 With the Metadata API done (for now at least), I spent my time reading the docs and testing [Cloud Functions triggered by Cloud Firestore events](https://cloud.google.com/functions/docs/calling/cloud-firestore).
+
+### R2D10 - 2020/05/17
+
+1. Created a [(firestore) Cloud Function](https://cloud.google.com/functions/docs/calling/cloud-firestore) triggered by Metadata Firestore collection document events (create, update or delete), that updates metadata records on Cloud Storage.

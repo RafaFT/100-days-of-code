@@ -42,10 +42,16 @@ The log of my #100DaysOfCode challenge. Started on May 8, Friday, 2020.
 
 Today I made a bunch of "minor" adjustments on the Metadata API, which is now oficially _good enough_.
 
-1. The Router's patterns now only match lowercase alphanumeric characters.
+1. The Router's patterns now only matches lowercase alphanumeric characters.
 
 2. Semantic validation of a document being added is done explicitly by the handler.
 
 3. The handler for getting all documents now returns a JSON object (dict), instead of a list.
 
 4. HTTP error status code are now more precise (ex: I can check failed firestore operation codes from [this](https://github.com/grpc/grpc-go/blob/master/codes/codes.go#L29) package, and return better HTTP error codes).
+
+### R2D9 - 2020/05/16
+
+Today I did not code at all.
+
+With the Metadata API done (for now at least), I spent my time reading the docs and testing [Cloud Functions triggered by Cloud Firestore events](https://cloud.google.com/functions/docs/calling/cloud-firestore).

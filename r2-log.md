@@ -59,3 +59,11 @@ With the Metadata API done (for now at least), I spent my time reading the docs 
 ### R2D10 - 2020/05/17
 
 1. Created a [(firestore) Cloud Function](https://cloud.google.com/functions/docs/calling/cloud-firestore) triggered by Metadata Firestore collection document events (create, update or delete), that updates metadata records on Cloud Storage.
+
+### R2D11 - 2020/05/18
+
+1. Spent some time reading documentation about how [notifications on Cloud Storage Bucket](https://cloud.google.com/storage/docs/pubsub-notifications) works. Notifications allow Cloud Storage Buckets to send messages to a Pub/Sub Topic (key value pairs and the Blob metadata), given a specific event.
+
+2. I tried configuring notifications to the records Bucket using the Python's Cloud Storage Client, but it did not work. I was able to create a Notification class object, but I couldn't find a way to add it to the Bucket (had a similiar problem with CORS configuration in the past) nor save it. This was annoying. I checked the Go's Client library and it did have an [AddNotification](https://godoc.org/cloud.google.com/go/storage#BucketHandle.AddNotification) method on the Bucket struct... I settled by configuring the notifications using the `gsutil` command.
+
+3. Removed deprecated logic for updating metadata.

@@ -67,3 +67,7 @@ With the Metadata API done (for now at least), I spent my time reading the docs 
 2. I tried configuring notifications to the records Bucket using the Python's Cloud Storage Client, but it did not work. I was able to create a Notification class object, but I couldn't find a way to add it to the Bucket (had a similiar problem with CORS configuration in the past) nor save it. This was annoying. I checked the Go's Client library and it did have an [AddNotification](https://godoc.org/cloud.google.com/go/storage#BucketHandle.AddNotification) method on the Bucket struct... I settled by configuring the notifications using the `gsutil` command.
 
 3. Removed deprecated logic for updating metadata.
+
+### R2D12 - 2020/05/19
+
+1. Created the first implementation (support for OBJECT_FINALIZE events) of the Cloud Function for updating metadata records on Cloud Firestore.

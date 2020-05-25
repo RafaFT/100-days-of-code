@@ -79,3 +79,11 @@ With the Metadata API done (for now at least), I spent my time reading the docs 
 2. Add handler for PUT methods on the Metadata API.
 
 3. Adjusted the front-end to the new Metadata URL and format. Now the end date input HTML also has a max value.
+
+### R2D14 - 2020/05/21
+
+Now that the new Metadata information is correctly updated daily for each new indicator/vna, I spent my time basically replacing all of the uses of the old metadata for the new format.
+
+1. Use the new Metadata on the indicators API.
+
+2. Use new Metadata on the calculate-indicator API, and verify input parameters using the new fields _first\_calc\_date_ and _latest\_calc\_date_.

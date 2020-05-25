@@ -87,3 +87,11 @@ Now that the new Metadata information is correctly updated daily for each new in
 1. Use the new Metadata on the indicators API.
 
 2. Use new Metadata on the calculate-indicator API, and verify input parameters using the new fields _first\_calc\_date_ and _latest\_calc\_date_.
+
+### R2D15 - 2020/05/22
+
+With the calculate-indicator API now getting the new Metadata format, it doesn't have to access the workdays API anymore, for determining the _adjusted\_end\_date_. So today I:
+
+1. Removed the use of workdays API on the calculate-indicator.
+
+2. Wrote a script to profile the old calculate-indicator with it's new version. While the time necessary to perform calculations with dates within the indicator's range were virtually the same, calculations where the _end\_date_ was higher than the indicator's _latest\_date_ went from 0.75 to 0.15 seconds =).

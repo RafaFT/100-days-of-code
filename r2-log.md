@@ -99,3 +99,25 @@ With the calculate-indicator API now getting the new Metadata format, it doesn't
 ### R2D16 - 2020/05/23
 
 Today I merged feature and development branches into master. Spent the day writting tag annotations, taking care of deployments and services versions numbers... Still not done.
+
+### R2D17 - 2020/05/24
+
+Finally took the time to finish the last unit of the [Client-Server Communication Course](https://www.udacity.com/course/client-server-communication--ud897) from Udacity. The unit was about security on the Web and it talked about:
+
+1. [same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) is a security mechanism that determines how resources from one origin can interact with resources from another one.
+
+2. While same-origin policy protects the end user and is enforced by the user-agents, there are valid cases where origin A should be allowed to fetch resource(s) from origin B. [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a mechanism that standardizes how that can be accomplished, by using new HTTP headers.
+
+3. [CSRF](https://pt.wikipedia.org/wiki/Cross-site_request_forgery) stands for Cross Site Request Forgery and is a type of attack where a WebSite makes a HTTP request to another site without the user knowing, trying to perform some kind of action that needs authorization by the user (such as transfer money from the user's account to it's own). A few words on why these attacks may work and how to prevent them...
+
+**A**: A different origin can make a request to another origin programmatically, so a good CORS implementation, without the `Access-Control-Allow-Origin: *` is always a good idea. Althou in some cases fetch API is not even necessary, so same-origin policy and CORS would not help.
+
+**B**: The attacked user is logged in and has an authentication cookie that the browser would send to the target origin (damn cookies).
+
+**C**: A CSRF token can help prevent this attack (for example: a hidden input on a form could have a random token, that the server would try to match before performing it's action. Just a way to make sure the request came from the actual website hosting the form, not some
+other origin).
+
+4. The course also talked about Cross-Site Scripting (XXS) attacks (always sanitize and verify user inputs).
+
+After finishing the course, I also read a blog post about [HTTP Sessions](https://drstearns.github.io/tutorials/sessions/).
+The post was amazing and it taught me a lot about the workflow of a session, the differences between two types of tokens, a Digitally-Signed Session ID and JSON Web Token (JWT). It also talked about why a memory Database System comes in hand and two distinct systems of delivery (cookies and HTTP headers + local storage).

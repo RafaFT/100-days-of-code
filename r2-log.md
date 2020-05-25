@@ -71,3 +71,11 @@ With the Metadata API done (for now at least), I spent my time reading the docs 
 ### R2D12 - 2020/05/19
 
 1. Created the first implementation (support for OBJECT_FINALIZE events) of the Cloud Function for updating metadata records on Cloud Firestore.
+
+### R2D13 - 2020/05/20
+
+1. Add support for OBJECT_DELETE events on the Cloud Function for updating metadata records on Cloud Firestore.
+
+2. Add handler for PUT methods on the Metadata API.
+
+3. Adjusted the front-end to the new Metadata URL and format. Now the end date input HTML also has a max value.

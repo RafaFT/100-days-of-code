@@ -95,3 +95,7 @@ With the calculate-indicator API now getting the new Metadata format, it doesn't
 1. Removed the use of workdays API on the calculate-indicator.
 
 2. Wrote a script to profile the old calculate-indicator with it's new version. While the time necessary to perform calculations with dates within the indicator's range were virtually the same, calculations where the _end\_date_ was higher than the indicator's _latest\_date_ went from 0.75 to 0.15 seconds =).
+
+### R2D16 - 2020/05/23
+
+Today I merged feature and development branches into master. Spent the day writting tag annotations, taking care of deployments and services versions numbers... Still not done.

@@ -121,3 +121,7 @@ other origin).
 
 After finishing the course, I also read a blog post about [HTTP Sessions](https://drstearns.github.io/tutorials/sessions/).
 The post was amazing and it taught me a lot about the workflow of a session, the differences between two types of tokens, a Digitally-Signed Session ID and JSON Web Token (JWT). It also talked about why a memory Database System comes in hand and two distinct systems of delivery (cookies and HTTP headers + local storage).
+
+### R2D18 - 2020/05/25
+
+Just like yesterday, today I spent my time studying. I read most of chapter one from [Go Web Programming book](https://www.manning.com/books/go-web-programming). I'm considering creating a new repo just for writing a summary of the book.

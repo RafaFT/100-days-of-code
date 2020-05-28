@@ -138,3 +138,7 @@ Here are some of the concepts the book explained:
 4. HTTP Request structure and HTTP methods (safe and idempotent)
 5. HTTP Response structure and HTTP status codes
 6. HTTP/2 and how it greatly improves performance (request and response multiplexing, compressed headers and binary based)
+
+### R2D20 - 2020/05/27
+
+Did a [HackerRank exercise](https://www.hackerrank.com/challenges/equality-in-a-array/problem)

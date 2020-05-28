@@ -125,3 +125,16 @@ The post was amazing and it taught me a lot about the workflow of a session, the
 ### R2D18 - 2020/05/25
 
 Just like yesterday, today I spent my time studying. I read most of chapter one from [Go Web Programming book](https://www.manning.com/books/go-web-programming). I'm considering creating a new repo just for writing a summary of the book.
+
+### R2D19 - 2020/05/26
+
+Today I finished reading the chapter one from the [Go Web Programming book](https://www.manning.com/books/go-web-programming). It's the best introduction to the basic concepts of web applications and HTTP I've ever read.
+
+Here are some of the concepts the book explained:
+
+1. Reasons why Go is a great choice for building Web Applications (_scalable_, _maintainable_, _modular_ and _fast_)
+2. Definition and differences between _Web Applications_ and _Web Services_
+3. HTTP protocol (stateless, text based, request-response)
+4. HTTP Request structure and HTTP methods (safe and idempotent)
+5. HTTP Response structure and HTTP status codes
+6. HTTP/2 and how it greatly improves performance (request and response multiplexing, compressed headers and binary based)

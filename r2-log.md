@@ -142,3 +142,7 @@ Here are some of the concepts the book explained:
 ### R2D20 - 2020/05/27
 
 Did a [HackerRank exercise](https://www.hackerrank.com/challenges/equality-in-a-array/problem)
+
+### R2D21 - 2020/05/28
+
+Finished Project Euler's exercise number 95. I remember attempting it in the past unsuccessfully =).

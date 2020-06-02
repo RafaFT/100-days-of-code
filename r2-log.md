@@ -146,3 +146,10 @@ Did a [HackerRank exercise](https://www.hackerrank.com/challenges/equality-in-a-
 ### R2D21 - 2020/05/28
 
 Finished Project Euler's exercise number 95. I remember attempting it in the past unsuccessfully =).
+
+### R2D22 - 2020/06/01
+
+Today I:
+
+1. Finilized the deployment started on 2020/05/23.
+2. Identified a bug and spent most of my time trying to understand it. I hope to have a fix by tomorrow, and an explanation of what happened and how it was fixed.

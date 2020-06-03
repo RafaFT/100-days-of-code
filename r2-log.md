@@ -153,3 +153,11 @@ Today I:
 
 1. Finilized the deployment started on 2020/05/23.
 2. Identified a bug and spent most of my time trying to understand it. I hope to have a fix by tomorrow, and an explanation of what happened and how it was fixed.
+
+### R2D23 - 2020/06/02
+
+The bug I mentioned yesterday was converting the `latest_date` and `latest_calc_date` fields of Metadata information (either on Cloud Storage or Firestore) on Null values, making calculations impossible.
+
+**Issue**: The cloud function for updating Metadata on Firestore is triggered by Cloud Storage bucket events _OBJECT\_FINALIZE_ and _OBJECT\_DELETE_. The problem is that the CF would reset the field values to Null when an _OBJECT\_DELETE_ event happend, and these events are triggered even when a blob is not explicitly deleted, but also overwritten. This was my bad, since the [documentation on Cloud Storage Notifications](https://cloud.google.com/storage/docs/pubsub-notifications#events) makes this behaviour clear.
+
+**Solution**: Removed the _OBJECT\_DELETE_ event listener from the Cloud Storage buckets (now only trigger update Metadata on _OBJECT\_FINALIZE_) and also removed the support and logic for delete events on the Cloud Function mentioned above.

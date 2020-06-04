@@ -161,3 +161,24 @@ The bug I mentioned yesterday was converting the `latest_date` and `latest_calc_
 **Issue**: The cloud function for updating Metadata on Firestore is triggered by Cloud Storage bucket events _OBJECT\_FINALIZE_ and _OBJECT\_DELETE_. The problem is that the CF would reset the field values to Null when an _OBJECT\_DELETE_ event happend, and these events are triggered even when a blob is not explicitly deleted, but also overwritten. This was my bad, since the [documentation on Cloud Storage Notifications](https://cloud.google.com/storage/docs/pubsub-notifications#events) makes this behaviour clear.
 
 **Solution**: Removed the _OBJECT\_DELETE_ event listener from the Cloud Storage buckets (now only trigger update Metadata on _OBJECT\_FINALIZE_) and also removed the support and logic for delete events on the Cloud Function mentioned above.
+
+### R2D24 - 2020/06/03
+
+Today I started taking the first course of Coursera's [Developing Applications with Google Cloud Platform Specialization](https://www.coursera.org/specializations/developing-apps-gcp), [Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/learn/gcp-fundamentals).
+
+So far, the basic information was:
+
+GCP offers 4 big categories of services:
+1. Compute (Compute Engine, App Engine, Cloud Functions, Kubernetes and Cloud Run)
+2. Storage (Cloud Storage, Cloud Firestore, Cloud SQL and many more)
+3. Big Data
+4. Machine Learning
+
+Cloud Computing can be defined by these 5 characteristics:
+* Self-Service (no-human interaction for allocating resources)
+* Elastic Resources (it must be possible to get more resources as needed)
+* Measured Service (pay only for whats it's use)
+* Broad Network (access from anywhere)
+* Resource Pooling (provider must shares resources to custumers)
+
+GCP resources are organized in zones and regions (region contains multiple zones).

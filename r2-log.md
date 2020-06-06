@@ -182,3 +182,7 @@ Cloud Computing can be defined by these 5 characteristics:
 * Resource Pooling (provider must shares resources to custumers)
 
 GCP resources are organized in zones and regions (region contains multiple zones).
+
+### R2D25 - 2020/06/04
+
+Instead of working of my personal project or studying, I spent my time figuring out a BUG I implemented at work (found and fixed =P).

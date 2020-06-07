@@ -186,3 +186,35 @@ GCP resources are organized in zones and regions (region contains multiple zones
 ### R2D25 - 2020/06/04
 
 Instead of working of my personal project or studying, I spent my time figuring out a BUG I implemented at work (found and fixed =P).
+
+### R2D26 - 2020/06/06
+
+Continued my study of [GCP](https://www.coursera.org/specializations/developing-apps-gcp)...
+
+GCP offers a few features for helping control spendings:
+* **Budgets and Alerts**: Like the name suggests, it's possible to define multiple budgets and alerts on both Project and Resource level. You can set a Budget by either a literal value or by last month's spending percentage. It's possible to define any number of Alerts by percetages thresholds of your defined Budget (alerts at 50, 90 and 100% by default).
+* **Reports**: GCP also offers beautiful reports whose aggregations are very atomic (by type of operation of a resource), which allows understanding exactly how each resource is being priced (Google Cloud Firestore for example bills by different metrics, such as write and Read operations).
+* **Billing Export**: It's possible to export billing details to BigQuery and to Cloud Storage (csv or json formats).
+* **Quotas**: Quotas exist to help both control spendings, as well as resources for all GCP clients. There are two types of quotas.
+1. **Rate Quotas**: Define a limit for a resource use by a given operation and time. These quotas reset by a time unit (day, monthly, second, etc...)
+2. **Allocation Quotas**: Define a limit of a resource allocation at a Project level (for example, 105 App Engine services by project).
+
+It's possible to interact with GCP in 4 different ways:
+1. Console (Web Application)
+2. SDK (provides 3 command line tools, `gcloud`, `gsutil` and `bq`)
+3. API's
+4. Mobile Application
+
+All GCP resources are organized by Projects. If GCP has an Organization, it's Projects can also be organized using Files.
+
+Every GCP Project has:
+* **Project Name**: Defined by the user, it's mutable.
+* **Project ID**: Defined by the user, immutable and unique.
+* **Project Number**: Defined by GCP, immutable.
+
+GCP contains an Identity Access Management (IAM or IM), that allows the creation of policies at Organization, Folder, Project and at some Resource levels. Policies are inherited and broader policies override more restrict ones.
+
+Each policie contains 3 parts:
+1. **WHO part**: Identifies a user. A user could be a Google account and even a GSuite domain. It's worth mentioning that when the _who_ is a software, GCP allows the use of a service-acocunt, which is just a google managed account that we can use for giving it IAM permissions. An example of a service-account being useful is if a Compute Engine instance (VM) needs permission for accessing another GCP resource.
+2. **CAN DO WHAT part**: Set of allowed actions a given user can take (role). GCP has 3 types of roles. _Primite_ Roles are pre-defined set of permissions (owner, editor, viewer) that apply to _all_ GCP resources. _Pre-Defined_ Roles are also pre-defined by GCP, but they are way more specific than _Primitive_ roles, having more granular actions and usually applying to only one resource. _Custom_ Roles are roles a GCP user can create (usually combining _Pre-Defined_ Roles).
+3. **WHICH RESOURCE part**: Identifies the resources for a Role.

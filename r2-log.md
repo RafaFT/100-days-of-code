@@ -164,6 +164,8 @@ The bug I mentioned yesterday was converting the `latest_date` and `latest_calc_
 
 ### R2D24 - 2020/06/03
 
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
+
 Today I started taking the first course of Coursera's [Developing Applications with Google Cloud Platform Specialization](https://www.coursera.org/specializations/developing-apps-gcp), [Google Cloud Platform Fundamentals: Core Infrastructure](https://www.coursera.org/learn/gcp-fundamentals).
 
 So far, the basic information was:
@@ -188,6 +190,8 @@ GCP resources are organized in zones and regions (region contains multiple zones
 Instead of working of my personal project or studying, I spent my time figuring out a BUG I implemented at work (found and fixed =P).
 
 ### R2D26 - 2020/06/06
+
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
 
 Continued my study of [GCP](https://www.coursera.org/specializations/developing-apps-gcp)...
 

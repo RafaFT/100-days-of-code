@@ -222,3 +222,8 @@ Each policie contains 3 parts:
 1. **WHO part**: Identifies a user. A user could be a Google account and even a GSuite domain. It's worth mentioning that when the _who_ is a software, GCP allows the use of a service-acocunt, which is just a google managed account that we can use for giving it IAM permissions. An example of a service-account being useful is if a Compute Engine instance (VM) needs permission for accessing another GCP resource.
 2. **CAN DO WHAT part**: Set of allowed actions a given user can take (role). GCP has 3 types of roles. _Primite_ Roles are pre-defined set of permissions (owner, editor, viewer) that apply to _all_ GCP resources. _Pre-Defined_ Roles are also pre-defined by GCP, but they are way more specific than _Primitive_ roles, having more granular actions and usually applying to only one resource. _Custom_ Roles are roles a GCP user can create (usually combining _Pre-Defined_ Roles).
 3. **WHICH RESOURCE part**: Identifies the resources for a Role.
+
+### R2D27 - 2020/06/07
+
+1. I waited a while for confirming that the issue (and fix) described on _R2D23_ actually worked. Today I deployed that fix.
+2. After the new knowledge of IAM, service-account and roles described on yesterday studies, I've updated my defined service accounts (and their roles) for the Indicators API and the service-account I use locally for testing with GCP Client Libraries.

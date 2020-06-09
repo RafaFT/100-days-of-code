@@ -196,12 +196,12 @@ Instead of working of my personal project or studying, I spent my time figuring 
 Continued my study of [GCP](https://www.coursera.org/specializations/developing-apps-gcp)...
 
 GCP offers a few features for helping control spendings:
-* **Budgets and Alerts**: Like the name suggests, it's possible to define multiple budgets and alerts on both Project and Resource level. You can set a Budget by either a literal value or by last month's spending percentage. It's possible to define any number of Alerts by percetages thresholds of your defined Budget (alerts at 50, 90 and 100% by default).
-* **Reports**: GCP also offers beautiful reports whose aggregations are very atomic (by type of operation of a resource), which allows understanding exactly how each resource is being priced (Google Cloud Firestore for example bills by different metrics, such as write and Read operations).
-* **Billing Export**: It's possible to export billing details to BigQuery and to Cloud Storage (csv or json formats).
-* **Quotas**: Quotas exist to help both control spendings, as well as resources for all GCP clients. There are two types of quotas.
-1. **Rate Quotas**: Define a limit for a resource use by a given operation and time. These quotas reset by a time unit (day, monthly, second, etc...)
-2. **Allocation Quotas**: Define a limit of a resource allocation at a Project level (for example, 105 App Engine services by project).
+* **Budgets and Alerts**: It's possible to define multiple budgets and alerts on both Project and Resource level. You can set a Budget by either a literal value or by last month's spending percentage. It's possible to define any number of Alerts by percetages thresholds of your defined Budget (alerts at 50, 90 and 100% by default).
+* **Reports**: GCP also offers beautiful (graphical) reports, that break down costs by resource operation's (for example: Firestore's costs are seperated by read, write, delete, storage, etc...).
+* **Billing Export**: It's possible to export billing details to BigQuery and/or to Cloud Storage (csv or json formats).
+* **Quotas**: Quotas exist to help both control spendings as well as making sure resources are available for all GCP clients. There are two types of quotas:
+1. **Rate Quotas**: It's a number of operations allowed on a resource by a period of time. This quota resets, and the time depends on the resource and the operation.
+2. **Allocation Quotas**: Define a limit of resource allocation at a Project level (for example, 105 App Engine services by project).
 
 It's possible to interact with GCP in 4 different ways:
 1. Console (Web Application)
@@ -216,11 +216,15 @@ Every GCP Project has:
 * **Project ID**: Defined by the user, immutable and unique.
 * **Project Number**: Defined by GCP, immutable.
 
-GCP contains an Identity Access Management (IAM or IM), that allows the creation of policies at Organization, Folder, Project and at some Resource levels. Policies are inherited and broader policies override more restrict ones.
+GCP contains an Identity Access Management (IAM or IM), that allows the creation of policies at Organization, Folder, Project and even at some Resource levels. IAM is a great tool for making sure the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) is applied to every GCP Project (or organization).
+IAM Policies are inherited and broader policies override more restrict ones.
 
-Each policie contains 3 parts:
+Every policie contains 3 parts:
 1. **WHO part**: Identifies a user. A user could be a Google account and even a GSuite domain. It's worth mentioning that when the _who_ is a software, GCP allows the use of a service-acocunt, which is just a google managed account that we can use for giving it IAM permissions. An example of a service-account being useful is if a Compute Engine instance (VM) needs permission for accessing another GCP resource.
-2. **CAN DO WHAT part**: Set of allowed actions a given user can take (role). GCP has 3 types of roles. _Primite_ Roles are pre-defined set of permissions (owner, editor, viewer) that apply to _all_ GCP resources. _Pre-Defined_ Roles are also pre-defined by GCP, but they are way more specific than _Primitive_ roles, having more granular actions and usually applying to only one resource. _Custom_ Roles are roles a GCP user can create (usually combining _Pre-Defined_ Roles).
+2. **CAN DO WHAT part**: A role is a set of actions a given user can take on specific resources. GCP has 3 types of roles.
+_Primitive_ roles have actions that apply to _all_ GCP resources.
+_Pre-Defined_ roles have both fewer actions and resources than primitive roles (usually apply to just one resource).
+_Custom_ roles user defined roles (usually combining _Pre-Defined_ Roles).
 3. **WHICH RESOURCE part**: Identifies the resources for a Role.
 
 ### R2D27 - 2020/06/07

@@ -231,3 +231,50 @@ _Custom_ roles user defined roles (usually combining _Pre-Defined_ Roles).
 
 1. I waited a while for confirming that the issue (and fix) described on _R2D23_ actually worked. Today I deployed that fix.
 2. After the new knowledge of IAM, service-account and roles described on yesterday studies, I've updated my defined service accounts (and their roles) for the Indicators API and the service-account I use locally for testing with GCP Client Libraries.
+
+### R2D28 - 2020/06/08
+
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
+
+The next section of the GCP studies was about networking (VPC, Firewalls, etc...) and Compute Engine (VMs).
+
+I'm very deficit on networking and I have never used a VM before (for nothing useful anyway). This lesson was not only difficult for me, but it was also somewhat out of scope (most resources I use on GCP are serverless).
+
+I did manage to understand a couple of things, but I don't feel confortable writing it down just yet. I finished the exercises and moved on to the next section.
+
+### R2D29 - 2020/06/09
+
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
+
+Every application must store data in some way.
+GCP offers a variety of storage options for structure and unstructure data. The core offerings are Cloud Storage, Cloud SQL, Cloud Datastore/Firestore, Cloud Spanner and Cloud Big Table.
+
+***
+
+**Cloud Storage**
+
+Cloud Storage is a Binary [Object Storage system](https://en.wikipedia.org/wiki/Object_storage), which means:
+1. Each object contains it's own information (in bytes).
+2. An object may contain metadata (set of key/value pairs).
+3. Each object is indexed by a unique identifier.
+
+GCS organizes it's objects in _Buckets_, and each bucket must have a unique identifier that is translated to a URL. This means that objects can be accessed on the web, by HTTPS requests.
+Buckets have 6 properties, the first 4 are mandatory:
+1. Global unique identifier (URL)
+2. Region
+3. Default storage class (Multi-Regional, Regional, Nearline and Coldline)
+4. IAM policies and/or ACL (Access Control List)
+5. Object versioning
+6. Object lifecycle policies
+
+There are 4 types of Cloud Storage classes:
+1. Multi-Regional: Good for highly accessible objects with redundancy within a region
+2. Regional: Also great for highly accessible objects, but with less redundancy
+3. Nearline: Class meant for objects that are accessed only once a month
+4. Coldline: Meant for objects that are accessed only once a year
+
+**Cloud BigTable**
+
+Cloud BigTable is a NoSQL database suitable for big data.
+
+Each item is meant to have only one index, and some application developers like to think of BigTable as a _persistant hashtable_.

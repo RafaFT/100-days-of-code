@@ -278,3 +278,20 @@ There are 4 types of Cloud Storage classes:
 Cloud BigTable is a NoSQL database suitable for big data.
 
 Each item is meant to have only one index, and some application developers like to think of BigTable as a _persistant hashtable_.
+
+### R2D30 - 2020/06/10
+
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
+
+**Cloud SQL**
+
+GCP offers tradional RDBMS with MySQL, PostgreSQL and/or SQL Server engines. Even thou it's also possible to host a RDBMS on a VM, the Cloud SQL databases are fully managed by Google and have a few features that make them very easy to use, such as scaling very well vertically, as well as security configurations and automatic replicas.
+
+**Cloud Spanner**
+
+Cloud Spanner is a relational database made by Google (with full support for SQL) that is suitable when the dataset size is too big for Cloud SQL and/or when the database also needs to scale horizontally.
+
+**Cloud Datastore/Firestore**
+
+[Cloud Firestore is the future of Datastore](https://cloud.google.com/datastore/docs/firestore-or-datastore).
+Cloud Firestore is a NoSQL database, made for back-end applications. It's horizontally scalable, supports ACID transactions and has support for SQL-like queries.

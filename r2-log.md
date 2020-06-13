@@ -295,3 +295,17 @@ Cloud Spanner is a relational database made by Google (with full support for SQL
 
 [Cloud Firestore is the future of Datastore](https://cloud.google.com/datastore/docs/firestore-or-datastore).
 Cloud Firestore is a NoSQL database, made for back-end applications. It's horizontally scalable, supports ACID transactions and has support for SQL-like queries.
+
+### R2D31 - 2020/06/12
+
+`[GCP-FUNDAMENTALS][GCP-SPECIALIZATION]`
+
+**Containers**
+
+The course's definition of containers start by comparing it to VM's.
+
+VM's and Containers can have the same goals of packaging an application logic and it's dependencies into a self-contained unit, that could be run anywhere. The difference between the two is how they are implemented.
+
+VM's virtualize the hardware, which means that each VM has it's own operating system, that can be configured and execute a given application. Because of this, VM's are highly configurable, but are not good when a service needs to scale, because VM's are "heavy" and each new instance would take maybe minutes to start, and consume a lot of resources.
+
+Containers on the other hand, virtualize the operating system, which means they are lightweigth when compared to the footprint of a VM. Therefore, containers are great for scalability, because it's faster to start them, but they offer less configurability than VM's.

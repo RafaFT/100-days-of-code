@@ -309,3 +309,8 @@ VM's and Containers can have the same goals of packaging an application logic an
 VM's virtualize the hardware, which means that each VM has it's own operating system, that can be configured and execute a given application. Because of this, VM's are highly configurable, but are not good when a service needs to scale, because VM's are "heavy" and each new instance would take maybe minutes to start, and consume a lot of resources.
 
 Containers on the other hand, virtualize the operating system, which means they are lightweigth when compared to the footprint of a VM. Therefore, containers are great for scalability, because it's faster to start them, but they offer less configurability than VM's.
+
+### R2D32 - 2020/06/13
+
+Today I decided to take the [first course](https://www.qwiklabs.com/focuses/10531?parent=catalog) of the [Qwiklabs's Getting Started with Go on Google Cloud](https://www.qwiklabs.com/quests/129) quest.
+It was basically a 1 hour course on how to deploy a Go application on App Engine, and understand how the app accessed data on both BigQuery and Firestore.

@@ -314,3 +314,40 @@ Containers on the other hand, virtualize the operating system, which means they 
 
 Today I decided to take the [first course](https://www.qwiklabs.com/focuses/10531?parent=catalog) of the [Qwiklabs's Getting Started with Go on Google Cloud](https://www.qwiklabs.com/quests/129) quest.
 It was basically a 1 hour course on how to deploy a Go application on App Engine, and understand how the app accessed data on both BigQuery and Firestore.
+
+### R2D33 - 2020/06/14
+
+Worked a little bit on my [calculators-app](https://calculadoras.app). I started implementing the LFT investment calculation. I've basically replicated all of the middlewares (CORS and pre-processing) and wrote a few helper functions. I need to re-visit how a [LFT investment is calculated](http://www.tesouro.fazenda.gov.br/documents/10180/258262/C%C3%A1lculo+da+Rentabilidade+dos+T%C3%ADtulos+P%C3%BAblicos+ofertados+via+Tesouro+Direto+-+LFT.pdf/582e2ca6-adab-459b-b841-ef33d4863b3b#:~:text=A%20LFT%20%C3%A9%20um%20t%C3%ADtulo,des%C3%A1gio%20no%20momento%20da%20compra1.) before writing the actual calculation.
+
+
+`[Go]`
+
+Continued my study of Go and Web Development from the [Go Web Programming book](https://www.manning.com/books/go-web-programming).
+
+Chapter 2 (skipped) was the description of a completed Web Application written in Go.
+
+Chapter 3 is about multiplexers (routers) and handlers.
+
+**Summary of Chapter 3**
+
+* While web frameworks can be a great way of developing web apps, using them without understanding which problems they are trying to solve, and how, can lead to [cargo cult programming](https://en.wikipedia.org/wiki/Cargo_cult_programming).
+* It's possible to create a web app in Go, using only the standard libraries `net/http` and `html/template`.
+* HTTPS is just the HTTP protocol on top of TLS, instead of TCP. The TLS protocol adds both encryption and authentication.
+* The TLS protocol consists of the server respoding to a client with a SSL certificate (a form of X.509 certificate), that contains a public key and a signature from a Certificate Authority (CA). If the client trusts the signature, it's going to create a private key, for symetric encryption and encrypt this new key with the public key from the server's certificate. In Go, creating your own certificate, public key and starting an HTTPS server is trivial.
+* Go's `net/http` package contain types for both client and server
+
+Client:
+1. Client
+2. Response
+
+Server:
+1. Server
+2. ServeMux
+3. Responsewriter
+4. Handler
+5. HandlerFunc
+
+For both Client and Server:
+1. Request
+2. Header
+3. Cookies

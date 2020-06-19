@@ -351,3 +351,21 @@ For both Client and Server:
 1. Request
 2. Header
 3. Cookies
+
+### R2D34 - 2020/06/15
+
+`[Go]`
+
+Continued my study of Chapter 3 from [Go Web Programming book](https://www.manning.com/books/go-web-programming).
+
+**Summary of Chapter 3**
+
+_Server_: It's the struct with all of the server's configurations. The port, the multiplexer and everything else must be passed to the Server type.
+
+_ServeMux_: It's a multiplexer (router). A multiplexer is responsible for directing each request to it's Handler, based on some variables such as the URL path and the HTTP method. In Go, every ServeMux also implements a `ServeHTTP` method, which means that every ServeMux is also a Handler. Go has a default multiplexer, _DefaultServeMux_, which is the ServeMux used on all calls from the `net/http` package where a ServeMux was not explicit.
+
+_ResponseWriter_: It's the type responsible for writing the output to a HTTP response.
+
+_Handler_: The `net/http` package defines a handler interface that implements just one method called `ServeHTTP`, that receives a `ResponseWriter` and a pointer to a `Request`. A handler therefore, is any type that implements the `ServeHTTP` method.
+
+_HandlerFunc_: Is a function that has the same signature as the `ServeHTTP` method.

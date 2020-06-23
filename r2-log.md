@@ -369,3 +369,37 @@ _ResponseWriter_: It's the type responsible for writing the output to a HTTP res
 _Handler_: The `net/http` package defines a handler interface that implements just one method called `ServeHTTP`, that receives a `ResponseWriter` and a pointer to a `Request`. A handler therefore, is any type that implements the `ServeHTTP` method.
 
 _HandlerFunc_: Is a function that has the same signature as the `ServeHTTP` method.
+
+### R2D35 - 2020/06/22
+
+`[Go]`
+
+Continued my study of Chapter 3 from [Go Web Programming book](https://www.manning.com/books/go-web-programming).
+
+Problems that exist throughout the source code and whose solution implementation would need to be done more than once, are known as _cross cutting concern_. Logging, error handling and authentication checking are some examples of cross cutting concerns.
+
+One way of solving these problems just once, and have them apply anywhere, is to chain handlers and/or handler functions using the adapter pattern (in Python known as the decorator pattern). Go has support for function types, anonymous functions and closures. Chaining handler functions and handlers is fairly easy:
+
+Example 1: Handler Function
+```
+func CheckAuthentication(hf http.HandlerFunc) http.HandlerFunc {
+    return func(w http.ResponseWriter, r *http.Request) {
+        // logic for checking authentication...
+        hf(w, r)
+    }
+}
+```
+
+Example 2: Handler
+```
+func CheckAuthentication(h http.Handler) http.Handler {
+    return http.HandlerFunc(func (w http.ResponseWriter, r *http.Request) {
+        // logic for checking authentication...
+        h.ServeHTTP(w, r)
+    })
+}
+```
+
+As mentioned "yesterday", _ServeMux_ is both a multiplexer and a handler in Go (because it implements the ServeHTTP method). As is turns out, the ServeMux is just a handler, whose ServeHTTP method has the logic for mapping different URLs to different handlers that have been previously registered. In other words, ServeMux implements routing by chaining.
+
+_DefaultServeMux_ is just an instance of a ServeMux, that is publicly available and implicitly used when the functions `http.Handle` and `http.HandleFunc` are called. If the `ListenAndServe` method of a Server struct is called without specifying a handler, the DefaultServeMux is used automatically.

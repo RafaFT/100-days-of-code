@@ -403,3 +403,11 @@ func CheckAuthentication(h http.Handler) http.Handler {
 As mentioned "yesterday", _ServeMux_ is both a multiplexer and a handler in Go (because it implements the ServeHTTP method). As is turns out, the ServeMux is just a handler, whose ServeHTTP method has the logic for mapping different URLs to different handlers that have been previously registered. In other words, ServeMux implements routing by chaining.
 
 _DefaultServeMux_ is just an instance of a ServeMux, that is publicly available and implicitly used when the functions `http.Handle` and `http.HandleFunc` are called. If the `ListenAndServe` method of a Server struct is called without specifying a handler, the DefaultServeMux is used automatically.
+
+### R2D35 - 2020/06/23
+
+`[Go]`
+
+Started studying the fourth chapter of the [Go Web Programming book](https://www.manning.com/books/go-web-programming).
+
+So far is has given a basic review of the Web and the Client-Server communication model.

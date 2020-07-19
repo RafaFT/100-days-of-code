@@ -417,3 +417,20 @@ So far is has given a basic review of the Web and the Client-Server communicatio
 Worked solely on the [Truck Driver Trips System API](https://github.com/RafaFT/truck-driver-trip-system).
 
 Software is never finished, it can only be abandoned. I have a couple of ideas I want to change/implement on this API (had a lot of fun and learned a lot with it), so I don't intend to abandoned this completely just yet.
+
+### R2D49 -> 51 - 2020/07/17 -> 2020/07/18
+
+I've decided to dual-boot my laptop and start developing with Ubuntu (20.04) to match my work's every day environment and to learn more about Linux and bash.
+
+I did [Ubuntu's intro tutorial on bash](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) and learned a bit about basic commands, "operators" and the Linux filesystem.
+
+I also wrote a one-time configuration bash file for installing and configuring some of my Ubuntu's workspace (such as google chrome, vscode, vscode extensions, git, insomnia, GCP SDK, define some aliases, environment variables, etc...)
+
+Some of the commands I "learned":
+`pwd`, `cd`, `mv`, `mkdir`, `rmdir`, `rm`, `echo`, `cat`, `less`, `sort`, `uniq`, `man`, `wc`, `ls`, `su` and `sudo` and a few _options_ (flags) to change their behavior.
+
+Came in touch with some _operators_:
+`&&`, `||`, `|` (pipe in awesome)
+
+I also came in touch with the filesystem:
+`/`, `~`, `/etc/environment`, `/etc/profile`, `/etc/profile.d/`, `~/.profile`, `~/.bashrc`, `~/.bash_aliases` and `~/.pam_environment`.

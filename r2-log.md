@@ -438,3 +438,11 @@ I also came in touch with the filesystem:
 ### R2D52 - 2020/07/19
 
 Started re-writing the Indicators API (implemented today as GAE) as a Cloud Function. I've finished implementing the first handler.
+
+### R2D53 - 2020/07/20
+
+I did two things.
+
+1. Finally learned how to push errors to the GCP's Error Reporting Service (which includes an e-mail and a notification push on Android) without having to raise a runtime error with `panic` (which would break a CF instance, hitting performance). It turns out I was trying to use the [wrong package (_logging_)](https://pkg.go.dev/cloud.google.com/go/logging), when I should be using the [errorreporting package](https://pkg.go.dev/cloud.google.com/go/errorreporting). Both packages are fairly similar (same concepts of async, flush and entry) and I think they are both awesome!
+
+2. Implemented query string capabilities to the `getRecords` handler, with support for `from`, `to`, `order`, `limit` and `fields`.

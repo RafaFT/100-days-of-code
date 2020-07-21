@@ -434,3 +434,7 @@ Came in touch with some _operators_:
 
 I also came in touch with the filesystem:
 `/`, `~`, `/etc/environment`, `/etc/profile`, `/etc/profile.d/`, `~/.profile`, `~/.bashrc`, `~/.bash_aliases` and `~/.pam_environment`.
+
+### R2D52 - 2020/07/19
+
+Started re-writing the Indicators API (implemented today as GAE) as a Cloud Function. I've finished implementing the first handler.

@@ -454,3 +454,7 @@ Today was a very productive day...
 1. Created a couple more handlers for the Indicator's API.
 2. Adjusted the query parameters for each handler (very similar to the implementation on the [Truck Driver Trip System API](https://github.com/RafaFT/truck-driver-trip-system)).
 3. Started working on the `addIndicator` handler, and solving the [Firestore issue](https://github.com/googleapis/google-cloud-go/issues/2610) of not supporting custom types (and therefore marshal and unmarshal).
+
+### R2D55 - 2020/07/22
+
+Finished implementing the `addIndicator` handler of the Indicator's API, and also concluded the design and implementation of an Indicator Model struct, that can be used for both Firestore and JSON.

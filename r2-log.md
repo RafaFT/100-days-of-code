@@ -468,3 +468,7 @@ After re-writing the Indicator's API as a CF, I realized a few changes that woul
 2. Return json containing the error message on client errors (4XX).
 3. Use the `errorreporting` library to report 5XX errors to Stack Driver (e-mail and app notification =P).
 4. Change the way dates are stored on Firestore.
+
+### R2D67 -> 68 - 2020/08/03 -> 2020/08/04
+
+Worked on my tech-talks presentation of Go.

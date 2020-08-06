@@ -458,3 +458,13 @@ Today was a very productive day...
 ### R2D55 - 2020/07/22
 
 Finished implementing the `addIndicator` handler of the Indicator's API, and also concluded the design and implementation of an Indicator Model struct, that can be used for both Firestore and JSON.
+
+### R2D56 -> 66 - 2020/07/23 -> 2020/08/02
+
+Worked on (yet) another major refactor on all of my micro-services.
+After re-writing the Indicator's API as a CF, I realized a few changes that would be welcomed on the VNA and Metadata APIs as well.
+
+1. Refactor all Firestore underlying collections.
+2. Return json containing the error message on client errors (4XX).
+3. Use the `errorreporting` library to report 5XX errors to Stack Driver (e-mail and app notification =P).
+4. Change the way dates are stored on Firestore.

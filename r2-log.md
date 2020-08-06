@@ -472,3 +472,15 @@ After re-writing the Indicator's API as a CF, I realized a few changes that woul
 ### R2D67 -> 68 - 2020/08/03 -> 2020/08/04
 
 Worked on my tech-talks presentation of Go.
+
+### R2D69 - 2020/08/05
+
+All of my micro-services are exposed to the internet. In trying to understand how to access a CF that requires authentication, I learned a bit more about IAM policies.
+
+1. Each IAM policy consists of one of more bindings, which are the association of members (the _who part_) with roles (the _can do what part_).
+2. Each IAM policy must belong to a GCP resource. Organization, Folders and Projects are also considered resources, and by default, when associating a role to a member the policy belongs to the Project.
+3. IAM policies are all inherited from child resources. This explains why a policy defined at Project level cannot be overwritten by a more restrict policy of a child resource.
+4. I can call a "private" CF locally by generating an identity token from gcloud: `gcloud auth print-identity-token`, and writing the token in the `Authorization` header (bearer).
+5. A CF can call another private CF by either generating an authentication token directly, or by using the `idtoken` library to generate a token on it's behalf. The calling CF must have the permission `cloudfunctions.functions.invoke`.
+
+A few other things I learned was about member types (google account, service-account, g suite domain or google-groups), how roles are made up of individual permissions (that have the following format: `service.resource.action`) and how it's possible to get a client of a GCP client library even when using a service-account with insufficient permissions.

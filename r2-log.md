@@ -484,3 +484,7 @@ All of my micro-services are exposed to the internet. In trying to understand ho
 5. A CF can call another private CF by either generating an authentication token directly, or by using the `idtoken` library to generate a token on it's behalf. The calling CF must have the permission `cloudfunctions.functions.invoke`.
 
 A few other things I learned was about member types (google account, service-account, g suite domain or google-groups), how roles are made up of individual permissions (that have the following format: `service.resource.action`) and how it's possible to get a client of a GCP client library even when using a service-account with insufficient permissions.
+
+### R2D70 -> 71 - 2020/08/06 -> 2020/08/07
+
+Worked and presented my tech-talks presentation of Go.

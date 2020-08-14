@@ -488,3 +488,9 @@ A few other things I learned was about member types (google account, service-acc
 ### R2D70 -> 71 - 2020/08/06 -> 2020/08/07
 
 Worked and presented my tech-talks presentation of Go.
+
+### R2D72 -> 73 - 2020/08/12 -> 2020/08/13
+
+Continued studying React from the [pure-react book](https://purereact.com).
+
+So far I've created a re-usable Tweet component, and I'm starting to learn the advantages and how to use PropTypes.

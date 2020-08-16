@@ -494,3 +494,34 @@ Worked and presented my tech-talks presentation of Go.
 Continued studying React from the [pure-react book](https://purereact.com).
 
 So far I've created a re-usable Tweet component, and I'm starting to learn the advantages and how to use PropTypes.
+
+### R2D74 - 2020/08/15
+
+Continued my study of [GCP](https://www.coursera.org/learn/gcp-fundamentals)
+
+Here is a minor revision of what I "learned" so far...
+
+1. A Cloud service must have the following characteristics:
+* Resources must be self-service (no human interaction needed) 
+* Pay only for what you use
+* Resources should be scalable (up and down)
+* Resources should be highly available through network
+* Cloud provider shares resources among customers
+
+2. About IAM:
+* IAM stands for Identity Access management, and allows the creation of IAM policies
+* IAM policies are a collection of member(s) and role associations
+* A member is an e-mail that identifies a user or a group of users (google account, service account, google groups or a G Suite domain)
+* A role is a collection of permissions, that when associated to a member, determines what the member can do
+* A permission is structured as `service.resource.action`
+* There are 3 types of roles (primitive, pre-defined and custom)
+* IAM policies must be associated to a resource
+* Resources inherit IAM policies from their parent
+
+3. About storage options:
+* GCP has different storage options that include: Relational db, NoSQL db and Object db
+* Relational dbs include Cloud SQL (MySQL, PostgreSQL and SQL Server) and Cloud Spanner (for horizontal scalability)
+* NoSQL dbs include Cloud BigTable (for big data) and Cloud Firestore (successor of datastore, great for backend applications)
+* Object db has Cloud Storage
+* Cloud Storage organize objects into buckets
+* Buckets have many configurations, that include: global unique name, region, storage class (multi-region, region, nearline and coldline), IAM policies and/or ACLs (Access Control List), object versioning and Life-Cycle rules

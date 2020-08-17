@@ -525,3 +525,21 @@ Here is a minor revision of what I "learned" so far...
 * Object db has Cloud Storage
 * Cloud Storage organize objects into buckets
 * Buckets have many configurations, that include: global unique name, region, storage class (multi-region, region, nearline and coldline), IAM policies and/or ACLs (Access Control List), object versioning and Life-Cycle rules
+
+### R2D75 - 2020/08/16
+
+The part I was stuck at the [GCP](https://www.coursera.org/learn/gcp-fundamentals) course was about containers and kubernetes... Therefore, I decided to read the official documentation and take the time to deploy the `calculate-indicator` logic from CF using Cloud Run.
+
+Cloud Run is yet another GCP compute option, which is basically a serverless container.
+Each service has a unique URL and may have multiple revisions (the latest healthy one is always served).
+Some differences between Cloud Run and CF:
+
+1. CR services can handle concurrent requests (up to 80)
+2. Each service has access to a great CPU (+-2.4 ghz), which is decoupled from the amount of memory
+3. The pricing for CPU milliseconds is the same across all requests that are processed at the same time
+
+I did some testing and the calculate-indicator logic deployed on CR performed much better than CF..
+
+For a single calculation, CR (0.04s) was faster than CF (0.12s), most likely because of the better CPU. In a spike of 1000 requests at the same time, the individual time execution was slower on CR (average of 1.5s), probably because 80 requests are more than one container can handle at the same time.
+
+However, the time necessary for completing all 1000 requests was much lower and consistent on CR (+- 3s) than CF (max >1min, min 3s). My guess is that the biggest bottleneck on CF for a huge spike of requests is the time necessary to spin 1000 CF instances, while the CR needed to scale much less (1000/80).

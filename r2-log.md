@@ -551,3 +551,9 @@ After my amazing experience using Cloud Run, and the successful deployment of th
 Therefore, Today I studied the very basics of [Google Apps Script](https://developers.google.com/apps-script/overview) and I actually did create a custom function that made HTTP calls to my endpoint (the GAS docs are very good) and everything went OK.
 
 In my tests, around 100 calculation took around 2-3 seconds, which was good enough.
+
+### R2D77 - 2020/08/18
+
+I got an [error](https://console.cloud.google.com/errors/CL3t59TCsIjfaQ?time=P1D&project=calculators-app) on the cron job for updating VNA values, where a Selic calculation returned a json where the `adjusted_end_date` was the same as the provided `end_date`, which doesn't make sense.
+
+The bug is a wrong logic, where `adjusted_end_date` is defined without checking if it's equal to the `end_date` provided.

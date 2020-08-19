@@ -543,3 +543,11 @@ I did some testing and the calculate-indicator logic deployed on CR performed mu
 For a single calculation, CR (0.04s) was faster than CF (0.12s), most likely because of the better CPU. In a spike of 1000 requests at the same time, the individual time execution was slower on CR (average of 1.5s), probably because 80 requests are more than one container can handle at the same time.
 
 However, the time necessary for completing all 1000 requests was much lower and consistent on CR (+- 3s) than CF (max >1min, min 3s). My guess is that the biggest bottleneck on CF for a huge spike of requests is the time necessary to spin 1000 CF instances, while the CR needed to scale much less (1000/80).
+
+### R2D76 - 2020/08/17
+
+After my amazing experience using Cloud Run, and the successful deployment of the calculate-indicator logic using serverless containers, I could not help my self and I spent my time trying to implement a custom function on Google Sheets that calls my Cloud Run container.
+
+Therefore, Today I studied the very basics of [Google Apps Script](https://developers.google.com/apps-script/overview) and I actually did create a custom function that made HTTP calls to my endpoint (the GAS docs are very good) and everything went OK.
+
+In my tests, around 100 calculation took around 2-3 seconds, which was good enough.

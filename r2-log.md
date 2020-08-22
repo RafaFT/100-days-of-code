@@ -557,3 +557,7 @@ In my tests, around 100 calculation took around 2-3 seconds, which was good enou
 I got an [error](https://console.cloud.google.com/errors/CL3t59TCsIjfaQ?time=P1D&project=calculators-app) on the cron job for updating VNA values, where a Selic calculation returned a json where the `adjusted_end_date` was the same as the provided `end_date`, which doesn't make sense.
 
 The bug is a wrong logic, where `adjusted_end_date` is defined without checking if it's equal to the `end_date` provided.
+
+### R2D78 - 2020/08/19
+
+Designed a calculation optimization by using binary search for finding the index of the records corresponding to the `start_date` (or it's adjusted value), very similar to Python's `bisect.bisect_left` implementation.

@@ -561,3 +561,9 @@ The bug is a wrong logic, where `adjusted_end_date` is defined without checking 
 ### R2D78 - 2020/08/19
 
 Designed a calculation optimization by using binary search for finding the index of the records corresponding to the `start_date` (or it's adjusted value), very similar to Python's `bisect.bisect_left` implementation.
+
+### R2D79 - 2020/08/21
+
+Implemented the calculation optimization described on `r2d78` (for all indicators), while also fixing the bug from `r2d77`.
+
+I also optimized the `tr` calculation further, by not iterating an array of birthday dates, but instead checking the date of each index more intelligently. After all of these optimizations, a realistic calculation (of +- 3 years) sometimes takes **25 milliseconds**, which is faster than I could have ever imagined!

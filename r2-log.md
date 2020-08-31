@@ -502,7 +502,7 @@ Continued my study of [GCP](https://www.coursera.org/learn/gcp-fundamentals)
 Here is a minor revision of what I "learned" so far...
 
 1. A Cloud service must have the following characteristics:
-* Resources must be self-service (no human interaction needed) 
+* Resources must be self-service (no human interaction needed)
 * Pay only for what you use
 * Resources should be scalable (up and down)
 * Resources should be highly available through network
@@ -567,3 +567,16 @@ Designed a calculation optimization by using binary search for finding the index
 Implemented the calculation optimization described on `r2d78` (for all indicators), while also fixing the bug from `r2d77`.
 
 I also optimized the `tr` calculation further, by not iterating an array of birthday dates, but instead checking the date of each index more intelligently. After all of these optimizations, a realistic calculation (of +- 3 years) sometimes takes **25 milliseconds**, which is faster than I could have ever imagined!
+
+### R2D80 -> 83 - 2020/08/22 -> 2020/08/25
+
+Continued working on the calculate indicator implementation on Cloud Run.
+
+In these 4 days I implemented the following changes:
+1. Cache calculation by default (query string parameter for disabling cache).
+2. getRecords receives the start date and returns only the necessary records.
+3. Don't panic during runtime to prevent cold starts.
+4. Use `errorreporting` to report Internal Server Errors.
+5. Implemented all new logic and optimizations to the calculate-indicators CF.
+
+OBS: After reading more about [caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching), I was assuming that simply setting the response header `Cache-Control: public, max-age=3600` would make cache work both locally and shared (proxy and CDN's), but I was surprised to noticed that the cache was only working locally (browser). I'm not entirely sure why this is happening, but I think I may need to enable Google's Cloud CDN service to take advantage of shared caching... I still need to work on this!

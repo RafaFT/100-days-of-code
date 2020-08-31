@@ -580,3 +580,7 @@ In these 4 days I implemented the following changes:
 5. Implemented all new logic and optimizations to the calculate-indicators CF.
 
 OBS: After reading more about [caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching), I was assuming that simply setting the response header `Cache-Control: public, max-age=3600` would make cache work both locally and shared (proxy and CDN's), but I was surprised to noticed that the cache was only working locally (browser). I'm not entirely sure why this is happening, but I think I may need to enable Google's Cloud CDN service to take advantage of shared caching... I still need to work on this!
+
+### R2D84 -> 86 - 2020/08/28 -> 2020/08/30
+
+Implemented automatic retry (by a combination of closure and decorator) to all of the `update_<indicator>` background Python Cloud Functions. I also took the opportunity to correctly update dependencies (using `pipenv`) and better report errors, using both a global try except block, and the `error_reporting` to notify if retry times out (up to 1 hour).

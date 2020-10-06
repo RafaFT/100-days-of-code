@@ -584,3 +584,7 @@ OBS: After reading more about [caching](https://developer.mozilla.org/en-US/docs
 ### R2D84 -> 86 - 2020/08/28 -> 2020/08/30
 
 Implemented automatic retry (by a combination of closure and decorator) to all of the `update_<indicator>` background Python Cloud Functions. I also took the opportunity to correctly update dependencies (using `pipenv`) and better report errors, using both a global try except block, and the `error_reporting` to notify if retry times out (up to 1 hour).
+
+### R2D87 - 2020/10/05
+
+Started writing openAPI specification (yaml) file for the Metadata API.

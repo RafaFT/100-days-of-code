@@ -588,3 +588,20 @@ Implemented automatic retry (by a combination of closure and decorator) to all o
 ### R2D87 - 2020/10/05
 
 Started writing openAPI specification (yaml) file for the Metadata API.
+
+### R2D88 - 2020/11/17
+
+Today, I have 16 Cloud Functions and 5 Cloud Run services deployed.. This is means that updating all of the services involves running at least 21 `gcloud` commands! Not only it's annoying and time wasting, it's also error prone!
+
+So I decided to implement continuous delivery by using Cloud Build!
+
+**Cloud Build:** GCP service for performing builds programmatically.
+**Cloud builder:** Container images that comes pre-installed with languages and toolings (such as `gcloud`), that Cloud Build uses to perform it's builds.
+**[cloudbuild.yaml](https://cloud.google.com/cloud-build/docs/build-config):** Configuration file (could be json as well) that contains instructions for a cloud builder.
+**Source Repositories** GCP service for maintaining an updated copy of GitHub repositories.
+
+I was able to implement continuous deployment fairly easy, by just doing these steps:
+
+1. Define a _cloudbuild.yaml_ config file for each service to be deployed, and a root _cloudbuild.yaml_ file with bash instruction to execute all other files.
+2. Sync my calculators-app repository from GitHub with Source Repositories service.
+3. Create a [Cloud Build trigger](https://cloud.google.com/cloud-build/docs/automating-builds/create-manage-triggers) that executes the root _cloudbuild.yaml_ file whenever a commit is pushed to the master branch on Source Repository.

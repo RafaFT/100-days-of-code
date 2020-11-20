@@ -605,3 +605,7 @@ I was able to implement continuous deployment fairly easy, by just doing these s
 1. Define a _cloudbuild.yaml_ config file for each service to be deployed, and a root _cloudbuild.yaml_ file with bash instruction to execute all other files.
 2. Sync my calculators-app repository from GitHub with Source Repositories service.
 3. Create a [Cloud Build trigger](https://cloud.google.com/cloud-build/docs/automating-builds/create-manage-triggers) that executes the root _cloudbuild.yaml_ file whenever a commit is pushed to the master branch on Source Repository.
+
+### R2D89 - 2020/11/18
+
+Started writing the _openapi.yaml_ config file (OAS) for the new `VNA` service, to be deployed on Cloud Run.

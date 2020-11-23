@@ -613,3 +613,9 @@ Started writing the _openapi.yaml_ config file (OAS) for the new `VNA` service, 
 ### R2D90 -> 91 - 2020/11/19 -> 2020/11/20
 
 Finished full initial implementation of the `VNA` service on Cloud Run (very similar to the `indicators` API).
+
+### R2D92 - 2020/11/21
+
+Created new GCP project for serving as a dev "environment" of the `calculators-app` project. Created new cloudbuild files (`dev-cloudbuild.yaml`) parallel to the existing ones, that deploy all services to the new GCP project. At the end of the day, I have two equivalent projects, that do exactly the same thing. But now I can have a more "professional" workflow (similar to my company's) and can test and experiment more confidently and free of bugs on the dev environment.
+
+I took the chance and set the default region for all GCP resources (services, buckets and databases) to `southamerica-east1` region.

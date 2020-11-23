@@ -591,7 +591,7 @@ Started writing openAPI specification (yaml) file for the Metadata API.
 
 ### R2D88 - 2020/11/17
 
-Today, I have 16 Cloud Functions and 5 Cloud Run services deployed.. This is means that updating all of the services involves running at least 21 `gcloud` commands! Not only it's annoying and time wasting, it's also error prone!
+Today, I have 16 Cloud Functions and 5 Cloud Run services deployed.. This means that updating all of the services involves running at least 21 `gcloud` commands! Not only it's annoying and time wasting, it's also error prone!
 
 So I decided to implement continuous delivery by using Cloud Build!
 
@@ -609,3 +609,7 @@ I was able to implement continuous deployment fairly easy, by just doing these s
 ### R2D89 - 2020/11/18
 
 Started writing the _openapi.yaml_ config file (OAS) for the new `VNA` service, to be deployed on Cloud Run.
+
+### R2D90 -> 91 - 2020/11/19 -> 2020/11/20
+
+Finished full initial implementation of the `VNA` service on Cloud Run (very similar to the `indicators` API).

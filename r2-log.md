@@ -629,3 +629,17 @@ The least privilege principle states that every person/service should have the l
 1. Each service should be private (either closed network, or require http authentication/authorization)
 2. Each service should have a unique identity (service-account)
 3. Each service and it's identity should have the least amount of necessary privileges
+
+### R2D94 - 2020/12/22
+
+Studied regular expression from HackerRank website.
+
+Python's web site also has a great [Regex - HOWTO document](https://docs.python.org/3/howto/regex.html#regex-howto) and a [regex expression operations page](https://docs.python.org/3/library/re.html).
+
+I (re)visited some interesting concepts, and learned new ones, such as:
+
+1. characters set - `[...]`
+2. groups (capturing and non-capturing) - `(...)` and `(?:...)`
+3. indexed backreferences - `\<groupIndex>`
+4. lookahead assertions (non-consuming) - `(?=...)`
+5. negative lookahead assertions (non-consuming) - `(?!...)`

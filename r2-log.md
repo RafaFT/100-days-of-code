@@ -619,3 +619,13 @@ Finished full initial implementation of the `VNA` service on Cloud Run (very sim
 Created new GCP project for serving as a dev "environment" of the `calculators-app` project. Created new cloudbuild files (`dev-cloudbuild.yaml`) parallel to the existing ones, that deploy all services to the new GCP project. At the end of the day, I have two equivalent projects, that do exactly the same thing. But now I can have a more "professional" workflow (similar to my company's) and can test and experiment more confidently and free of bugs on the dev environment.
 
 I took the chance and set the default region for all GCP resources (services, buckets and databases) to `southamerica-east1` region.
+
+### R2D93 - 2020/12/21
+
+Kept working on applying the `least privilege principle` to my application.
+
+The least privilege principle states that every person/service should have the least amount of privilege (permissions) that is necessary for their job to be completed. In a GCP project, this translates to:
+
+1. Each service should be private (either closed network, or require http authentication/authorization)
+2. Each service should have a unique identity (service-account)
+3. Each service and it's identity should have the least amount of necessary privileges

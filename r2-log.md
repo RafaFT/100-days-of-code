@@ -657,3 +657,14 @@ This exercise is very hard and I'll definitely give it another try in the future
 ### R2D97 - 2020/12/25
 
 Implemented Project Euler solutions (exercises: 2, 4 and 6) using Go.
+
+### R2D98 - 2020/12/28
+
+Learned the basics about [testing/benchmarking](https://golang.org/pkg/testing/) in Go.
+
+Testing with Go consists of basically:
+1. Using the `go test` command
+2. Only files ending with `_test.go` are considered
+3. Functions signature must must be either `TestXxx(*testing.T)` or `BenchmarkXxx(*testing.B)`
+
+Implemented simple testing for `logEntry`'s `NewLogger` function (checking trace value).

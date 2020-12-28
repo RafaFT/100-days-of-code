@@ -643,3 +643,7 @@ I (re)visited some interesting concepts, and learned new ones, such as:
 3. indexed backreferences - `\<groupIndex>`
 4. lookahead assertions (non-consuming) - `(?=...)`
 5. negative lookahead assertions (non-consuming) - `(?!...)`
+
+### R2D95 - 2020/12/23
+
+Did [Google's Kickstart 2016 Country Leader exercise](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201d30)

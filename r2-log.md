@@ -653,3 +653,7 @@ Did [Google's Kickstart 2016 Country Leader exercise](https://codingcompetitions
 Attempt [Google's Kickstart 2016 Rain exercise](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201dbb)... And failed miserably =P
 
 This exercise is very hard and I'll definitely give it another try in the future.
+
+### R2D97 - 2020/12/25
+
+Implemented Project Euler solutions (exercises: 2, 4 and 6) using Go.

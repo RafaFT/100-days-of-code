@@ -647,3 +647,9 @@ I (re)visited some interesting concepts, and learned new ones, such as:
 ### R2D95 - 2020/12/23
 
 Did [Google's Kickstart 2016 Country Leader exercise](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201d30)
+
+### R2D96 - 2020/12/24
+
+Attempt [Google's Kickstart 2016 Rain exercise](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201dbb)... And failed miserably =P
+
+This exercise is very hard and I'll definitely give it another try in the future.

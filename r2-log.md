@@ -668,3 +668,15 @@ Testing with Go consists of basically:
 3. Functions signature must must be either `TestXxx(*testing.T)` or `BenchmarkXxx(*testing.B)`
 
 Implemented simple testing for `logEntry`'s `NewLogger` function (checking trace value).
+
+### R2D99 - 2020/12/29
+
+Implemented a bunch of tests for the `Query` type.
+
+Installed GitHub's app for `Cloud Build` and created a file `tests-cloudbuild.yaml` with logic for performing go tests on all directories that contain a `go.mod` file (recursively). This allowed me to implemented automatic tests whenever a PR is opened for specific branches (master and dev).
+
+Even thou this workflow is very similar to what I have at work, it's still not the same because while tests are performed automatic, it's possible the merge the PR branches before the tests are completed (or even if they fail). I assume this block is done by GitHub's PRO account...
+
+My application has 2 automatic flows that make life easier:
+1. continuous-testing on PR for dev and master branches
+2. continuous-deployment on merges on dev and master branches

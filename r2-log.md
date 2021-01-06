@@ -680,3 +680,9 @@ Even thou this workflow is very similar to what I have at work, it's still not t
 My application has 2 automatic flows that make life easier:
 1. continuous-testing on PR for dev and master branches
 2. continuous-deployment on merges on dev and master branches
+
+### R2D100 - 2020-12-30
+
+Read a lot about the clean architecture and how to apply it to a Go application. There are multiple sources on this, and I really want to become proficient on this topic.
+
+Clean Architecture is about separation of concern by organizing the source code into layers. The layers are contained within each other, and inner layers have a higher level of abstraction than outer layers. The golden rule that makes clean architecture work is the Dependency Rule, which states that compile (source code) dependencies should only point inwards, which means inner layers should not depend or know anything about outer layers

@@ -19,3 +19,8 @@ I've already created the Workday entity, some usecases and I'm currently working
 I didn't code today.
 Instead, I spent a lot of time mapping and understanding all the Federal and Banking laws that define what a baking service workday is.
 Unfortunately, it was not as straight forward as I hoped.
+
+### R3D3 - 2022/12/30
+
+Continued working on understanding all brazilian workdays.
+Started writing holiday's check as a new version, with way more documentation and reference for each day.

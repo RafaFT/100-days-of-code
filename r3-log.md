@@ -24,3 +24,13 @@ Unfortunately, it was not as straight forward as I hoped.
 
 Continued working on understanding all brazilian workdays.
 Started writing holiday's check as a new version, with way more documentation and reference for each day.
+
+### R3D4 - 2022/12/31
+
+Could not work on the holidays logic and documentation because of lack of internet.
+However, I did update documentation on other packages.
+
+I also decided to embrace the idea of having all of the workdays determined by a conjunction of selic values from BCB's API, from 1994, with ANBIMA's official holiday's list from 2001 to 2078, on the form of a CSV file.
+
+This means the concept of a Workday entity is not technically necessary and I might remove it in the future.
+Fow now, however, I added a couple of tests to make sure the workdays on the CSV file match the same workdays from NewWorkday function.

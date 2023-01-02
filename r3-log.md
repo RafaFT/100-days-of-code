@@ -34,3 +34,15 @@ I also decided to embrace the idea of having all of the workdays determined by a
 
 This means the concept of a Workday entity is not technically necessary and I might remove it in the future.
 Fow now, however, I added a couple of tests to make sure the workdays on the CSV file match the same workdays from NewWorkday function.
+
+### R3D5 - 2023/01/01
+
+Refactored and improved the tests from yesterday, for comparing the "different" implementation approaches of Workdays definition.
+I basically wrote 3 tests:
+1. one for verifying that all CSV dates are indeed Workdays, and checking total number.
+2. one for verifying that generating all workdays from start to end resulted in the same expected total number.
+3. one checking that the workdays from test 1 are the same as the ones from check 2.
+
+Since the third test needed data from the first and second, I decided to use sub-testing for implementing all 3 tests inside the same parent.
+
+I also had the idea of exposing the min and max possible workdays from the entity package as constant millisecond values. The trade-off is that the min and max dates are now finally "protected" and immutable (const milliseconds instead of var time.Time), but now each client package has to convert the exposed milliseconds to time.Time objects themselves.

@@ -46,3 +46,7 @@ I basically wrote 3 tests:
 Since the third test needed data from the first and second, I decided to use sub-testing for implementing all 3 tests inside the same parent.
 
 I also had the idea of exposing the min and max possible workdays from the entity package as constant millisecond values. The trade-off is that the min and max dates are now finally "protected" and immutable (const milliseconds instead of var time.Time), but now each client package has to convert the exposed milliseconds to time.Time objects themselves.
+
+### R3D6 - 2023/01/02
+
+Played around a little with slog package (for structure logging), and started working on a new use-case for getting the number of workdays between two dates, instead of getting the actual dates.

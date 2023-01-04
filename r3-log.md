@@ -50,3 +50,8 @@ I also had the idea of exposing the min and max possible workdays from the entit
 ### R3D6 - 2023/01/02
 
 Played around a little with slog package (for structure logging), and started working on a new use-case for getting the number of workdays between two dates, instead of getting the actual dates.
+
+### R3D7 - 2023/01/03
+
+Finished the implementation of the new use-case for counting the number of workdays between two dates, WorkdaysCounter input port.
+I also added tests and benchmarks for successful and error cases, and made sure test coverage was 100%, with the newly discovered `go test -coverprofile=cover.out` and `go tool cover -html=cover.out` commands.

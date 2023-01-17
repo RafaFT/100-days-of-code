@@ -55,3 +55,8 @@ Played around a little with slog package (for structure logging), and started wo
 
 Finished the implementation of the new use-case for counting the number of workdays between two dates, WorkdaysCounter input port.
 I also added tests and benchmarks for successful and error cases, and made sure test coverage was 100%, with the newly discovered `go test -coverprofile=cover.out` and `go tool cover -html=cover.out` commands.
+
+### R3D8 - 2023/01/05
+
+Worked on a big DRY refactor on the repository package.
+Moved both in-memory repository implementations to the same file and made both implementation tests work on the same input and define single test functions that make use of sub-testing and sub-benchmarking for each implementation.

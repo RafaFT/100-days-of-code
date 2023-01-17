@@ -60,3 +60,13 @@ I also added tests and benchmarks for successful and error cases, and made sure 
 
 Worked on a big DRY refactor on the repository package.
 Moved both in-memory repository implementations to the same file and made both implementation tests work on the same input and define single test functions that make use of sub-testing and sub-benchmarking for each implementation.
+
+### R3D9 - 2023/01/16
+
+I'm back! =)
+
+Started working on a refactor/fix on date limits.
+
+At both entity and usecase levels, workdays should be considered between [1994-01-01, 2079-01-01) (inclusive and exclusive).
+
+The difference between the two layers is that at entity, the upper limit (2079-01-01) should be invalid and considered out of bounds. But at usecase, it makes sense to accept it, as it makes it easier to ask for workdays range. For example, for determining the workdays of December of 2078, it's easier to provide (2078-12-01, 2079-01-01), than (2078-12-01, 2079-12-31).

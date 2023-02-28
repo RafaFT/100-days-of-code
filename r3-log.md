@@ -70,3 +70,11 @@ Started working on a refactor/fix on date limits.
 At both entity and usecase levels, workdays should be considered between [1994-01-01, 2079-01-01) (inclusive and exclusive).
 
 The difference between the two layers is that at entity, the upper limit (2079-01-01) should be invalid and considered out of bounds. But at usecase, it makes sense to accept it, as it makes it easier to ask for workdays range. For example, for determining the workdays of December of 2078, it's easier to provide (2078-12-01, 2079-01-01), than (2078-12-01, 2079-12-31).
+
+### R3D10 - 2023/02/27
+
+I'm back! For reals this time =)
+
+Studied a little bit the new experimental slog package, which is a package for structure logging with golang.
+
+Updated my Go version to 1.20 (already have an eye on the new multiple errors handle technique) and started working on the Workdays refactor mentioned at D09.

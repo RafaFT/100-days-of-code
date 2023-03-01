@@ -78,3 +78,8 @@ I'm back! For reals this time =)
 Studied a little bit the new experimental slog package, which is a package for structure logging with golang.
 
 Updated my Go version to 1.20 (already have an eye on the new multiple errors handle technique) and started working on the Workdays refactor mentioned at D09.
+
+### R3D11 - 2023/02/28
+
+Finished the refactor from D09.
+Workday entity date limit is 2078-12-31, but usecase for fetch considers 2079-01-01 as valid, which easies search queries.

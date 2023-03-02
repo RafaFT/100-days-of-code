@@ -83,3 +83,11 @@ Updated my Go version to 1.20 (already have an eye on the new multiple errors ha
 
 Finished the refactor from D09.
 Workday entity date limit is 2078-12-31, but usecase for fetch considers 2079-01-01 as valid, which easies search queries.
+
+### R3D12 - 2023/03/01
+
+Fixed a pesky bug on WorkdaysRepository pre loaded implementation on the Fetch method. Which was ignoring the latest date, even when that date was lower than the provided end date filter. In other words, the end exclusive filter was happening even when it shouldn't.
+
+I also implemented a new Count method for each WorkdaysRepository implementation.
+
+Started working on a Trello board to keep track of everything.

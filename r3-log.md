@@ -27,3 +27,15 @@ Currently supporting `-list`, `-task` and `-complete` to list, add and mark a ta
 
 It isn't clear to me how to best handle multiple flags yet. Some flag combinations might be fine, but other will most likely be incompatible
 and how should the CLI handle such cases?
+
+### R3D4 - 2025/01/08
+
+Continued working on the TODO application.
+Refactored CLI for supporting new flags and added integration tests for it.
+
+Currently, the CLI exists with an error if no flag was provided, and it considers only the first flag found.
+I'm still not sure how to handle multiple flags and was surprised that flag.<Type> method has no way of knowing whether a value was provided or not.
+This means It's not possible to distinguish the default value from the user's input when they match.
+
+I've also learned about flag.Usage and flag.PrintDefaults functions, which seem a great way of customizing CLI output for invalid flags and
+for displaying customizable doc.

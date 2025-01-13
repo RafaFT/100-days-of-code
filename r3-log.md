@@ -39,3 +39,14 @@ This means It's not possible to distinguish the default value from the user's in
 
 I've also learned about flag.Usage and flag.PrintDefaults functions, which seem a great way of customizing CLI output for invalid flags and
 for displaying customizable doc.
+
+### R3D5 - 2025/01/12
+
+Continued working on the TODO application.
+Finished the chapter and initial implementation, now I just have to finish the optional exercises.
+
+Interesting knowledge from today's session is that CLI tools are usually designed to be used by humans AND other tools.
+This seems obvious after thinking about bash's pipe `|`.
+
+Allowing CLI tools to being composable include using code exits, accepting arguments from stdin, writing correctly to stdout/stderr, supporting
+different output formats, human and/or machine readable and I'm sure, many others things.
